@@ -293,7 +293,7 @@
 				var message = $("textarea#message").val();
 	
 				$.ajax({
-					url: "send.php",
+					url: "./php_mailer/mail_handler.php",
 					type: "POST",
 					data: {
 						firstname: firstname,
