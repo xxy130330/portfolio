@@ -34,8 +34,8 @@ $mail->addReplyTo($_POST['email']);                          // Add a reply-to a
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Message from Portfolio.';
-$mail->Message    = $_POST['message'];  //'This is the HTML message body <b>in bold!</b>';
-$mail->AltMessage = htmlentities($_POST['message']);  //'This is the body in plain text for non-HTML mail clients';
+$mail->Body    = $_POST['message'];  //'This is the HTML message body <b>in bold!</b>';
+$mail->AltBody = htmlentities($_POST['message']);  //'This is the body in plain text for non-HTML mail clients';
 $output = [
     //'success' => true,
 
