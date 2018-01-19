@@ -1,379 +1,853 @@
-<html lang="en" class=""><head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- ==========================
+    	Meta Tags 
+    =========================== -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ==========================
+    	Title 
+    =========================== -->
+    <title>Super Freelancer</title>
+    
+    <!-- ==========================
+    	Favicons 
+    =========================== -->
+    <link rel="shortcut icon" href="icons/favicon.ico">
+	<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="icons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="icons/apple-touch-icon-114x114.png">
+    
+    <!-- ==========================
+    	Fonts 
+    =========================== -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lilita+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  
 
+    <!-- ==========================
+    	CSS 
+    =========================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/creative-brands.css" rel="stylesheet" type="text/css">
+    <link href="css/vertical-carousel.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    
+    <!-- ==========================
+    	JS 
+    =========================== -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+<body id="page-top">
+	<a href="#page-top" class="scroll-up scroll"><i class="fa fa-chevron-up"></i></a>
+    <h1>Freelancer</h1>
+	
+    <!-- ==========================
+    	HEADER - START 
+    =========================== -->
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavigation"><i class="fa fa-bars"></i></button>
+                    <img src="image/jonathan.png" class="navbar-logo pull-left" alt="" />
+                    <a href="index.html" class="navbar-brand animated flipInX">Christin Yang</a>
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="myNavigation">
+                
+                    <ul class="nav navbar-nav navbar-right animated flipInX">
+                        <li><a href="#about" class="scroll">About me</a></li>
+                        <li><a href="#reference" class="scroll">Reference</a></li>
+                        <li><a href="#pricing" class="scroll">Pricing</a></li>
+                        <li><a href="#contact" class="scroll">Contact</a></li>
+                        <li><a href="blog.html" class="scroll blog_menu_link">Blog</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+        
+        <div class="jumbotron">
+            <img src="image/jonathan.png" class="img-responsive scrollpoint sp-effect3" alt="" />	
+            <div class="social-wrapper">
+                <ul class="brands brands-inline hidden-xs scrollpoint sp-effect1">
+                    <!--<li><a href="#"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>-->
+                    <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                </ul>   
+                <h2 class="scrollpoint sp-effect3">Christin Yang</h2>
+                <ul class="brands brands-inline hidden-xs scrollpoint sp-effect2">
+                    <!--<li><a href="#"><i class="fa fa-google-plus"></i></a></li>-->
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>       
+            </div>
+            <!-- Slideshow start -->                          
+            <div id="slideshow" class="carousel slide vertical scrollpoint sp-effect3" data-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Slideshow item 1 active --> 
+                    <div class="item active"><h3>I <i class="fa fa-heart icon-first"></i> Code + Design</h3></div>
+                    <!-- Slideshow item 2 -->     
+                    <div class="item"><h3>Creative coder <i class="fa fa-code icon"></i></h3></div>
+                    <!-- Slideshow item 3 -->   
+                    <div class="item"><h3><i class="fa fa-trophy"></i> Awesome designer</h3></div>
+                </div>
+            </div>
+            <!-- Slideshow end -->   
+        <a href="#about" class="btn btn-reference btn-lg scroll scrollpoint sp-effect1" role="button"><i class="fa fa-smile-o"></i> Know me better</a>
+        <a href="#contact" class="btn btn-reference btn-lg btn-active scroll scrollpoint sp-effect2" role="button"><i class="fa fa-bolt"></i> Hire me</a> 
+        </div>
+    </header>
+    <!-- ==========================
+    	HEADER - END 
+    =========================== -->
+     
+    <!-- ==========================
+    	ABOUT - START 
+    =========================== -->
+    <section id="about" class="content-first">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 hidden-xs scrollpoint sp-effect1"><!-- Profile image --> 
+                	<img src="image/jonathan.png" class="image-bordered img-responsive" alt="" />                
+                </div><!-- Profile end --> 
+                
+                <div class="col-md-7 col-sm-6 scrollpoint sp-effect1"><!-- Profile description --> 
+                	<h3>Christin Yang</h3>
+                  	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>      
+                    
+                    <div class="tweets"><!-- Tweets row --> 
+                        <!-- Tweets slideshow --> 
+                             <div class="media">
+                                    <div class="pull-left"><i class="fa fa-twitter"></i></div>
+                                    <div class="media-body">
+                                        <div id="slideshow1" class="carousel slide" data-ride="carousel">
+                                              <div class="carousel-inner">
+                                               <!-- Slideshow item 1 active --> 
+                                                  <div class="item active">
+                                                        <p>Hi everyone i just finished my last #awesome web template you can check it on #wrapbootstrap.. Fully responsive and mobile first webtheme.co</p> 
+                                                  </div>
+                                               <!-- Slideshow item 2 -->    
+                                                  <div class="item">
+                                                        <p>Check our new amazing portfolio on #Pixelized</p>
+                                                  </div>
+                                                  
+                                                <!-- Slideshow item 3 -->
+                                                  <div class="item">
+                                                        <p>Another very #important tweet from your twitter.</p>
+                                                  </div>
+                                              </div>    
+                                         </div>
+                                    </div>
+                             </div>    
+                       <!-- Tweets slideshow end --> 
+                    </div><!-- Tweets row end --> 
+               </div><!-- Profile description end--> 
+                
+              <div class="col-md-3 col-sm-4 scrollpoint sp-effect2"><!--Timeline-->
+                 
+                  <div class="timeline">
+                      <!-- BLOG POST 1 - START -->
+                      <div class="event">
+                          <div class="event-info">
+                            <div class="date">1999</div>
+                          </div>
+                      	  <span>Graduated harvard</span>
+                      </div> <!-- BLOG POST 1 - END -->
+                      
+                      <div class="event">
+                          <div class="event-info">
+                             <div class="date">2000</div>
+                          </div>
+                      	  <span>Internship Google</span>
+                      </div> <!-- BLOG POST 1 - END -->
+                      
+                      <div class="event">
+                          <div class="event-info">
+                             <div class="date">2001</div>
+                          </div>
+                      	  <span>Full-time Job Google</span>
+                      </div> <!-- BLOG POST 1 - END -->
+                      
+                      <div class="event">
+                          <div class="event-info">
+                             <div class="date">2009</div>
+                          </div>
+                      	  <span>Publish own book</span>
+                      </div> <!-- BLOG POST 1 - END -->
+                      
+                      <div class="event">
+                          <div class="event-info">
+                             <div class="date">2012</div>
+                          </div>
+                      	  <span>Start freelancing</span>
+                      </div> <!-- BLOG POST 1 - END -->
+                      
+                  </div><!--timeline-->
+              </div><!--col 3 end-->
+               
+            </div><!--Row about end-->
+            
+            
+            <div class="row">
+            	<div class="col-md-12 text-center">
+                	<a id="skills-toggle" class="btn btn-primary"><i class="fa fa-arrow-circle-o-down"></i> Check my skills</a>
+                </div>
+            </div>
+        </div><!-- Container end-->
+        
+        <div id="skills">
+            <div class="container">   
+                <div class="row"><!-- Toogle my skills start --> 
+                    <div class="col-md-3">
+                        <div class="chart" data-percent="73">73% CSS</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="chart" data-percent="89">89% Html</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="chart" data-percent="83">83% Code</div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="chart" data-percent="62">62% Design</div>
+                    </div>
+                </div><!-- Toogle my skills end--> 
+                
+            </div><!-- Container end-->
+        </div>
+        
+    </section>
+    <!-- ==========================
+    	ABOUT - END 
+    =========================== --> 
+    
+     <!-- ==========================
+    	SERVICER - START
+    =========================== -->   
+    <section id="services" class="content-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="scrollpoint sp-effect3">What i do</h2>
+                    <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+                </div>
+                
+                <div class="col-md-3 service scrollpoint sp-effect1">
+                <img src="image/ico5.png" alt="">
+                <h3>SEO first</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                </div>
+                
+                
+                <div class="col-md-3 service scrollpoint sp-effect1">
+                <img src="image/ico4.png" alt="">
+                <h3>Firstclass design</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                </div>
+                
+                
+                <div class="col-md-3 service scrollpoint sp-effect2">
+                <img src="image/ico1.png" alt="">
+                <h3>Fully responsive</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                </div>
+                
+                <div class="col-md-3 service scrollpoint sp-effect2">
+                <img src="image/ico3.png" alt="">
+                <h3>Browser friendly</h3>
+                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	SERVICES - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	NUMBERS - START
+    =========================== -->   
+    <section id="separator" class="content-first">
+        <div class="container">
+            <div class="row scrollpoint sp-effect3">
+                <div class="col-sm-2">
+                	<i class="fa fa-user"></i>
+                    <p><span class="number highlight" data-from="0" data-to="100" data-refresh-interval="10"></span> Happy clients</p>
+                </div> 	
+                <div class="col-sm-2">
+                	<i class="fa fa-coffee"></i>
+                    <p><span class="number highlight" data-from="0" data-to="250" data-refresh-interval="10"></span> cups of coffee</p>
+                </div> 	
+                <div class="col-sm-2">
+                	<i class="fa fa-code"></i>
+                    <p><span class="number highlight" data-from="0" data-to="2500" data-refresh-interval="10"></span> lines of codes</p>
+                </div> 	
+                <div class="col-sm-2">
+                	<i class="fa fa-envelope"></i>
+                    <p><span class="number highlight" data-from="0" data-to="300" data-refresh-interval="10"></span> emails</p>
+                </div> 	
+                <div class="col-sm-2">
+                	<i class="fa fa-phone"></i>
+                    <p><span class="number highlight" data-from="0" data-to="50" data-refresh-interval="10"></span> hours phone calls</p>
+                </div> 	
+                <div class="col-sm-2">
+                	<i class="fa fa-facebook"></i>
+                    <p><span class="number highlight" data-from="0" data-to="24" data-refresh-interval="10"></span> hours facebook</p>
+                </div> 	
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	NUMBERS - END 
+    =========================== -->
+    
+     <!-- ==========================
+    	SHOWCASE - START
+    =========================== -->   
+    <section id="showcase" class="content-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2 class="scrollpoint sp-effect3">My latest work</h2>
+                    <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+                </div>
+                
+                <div class="col-lg-6 showcase-text scrollpoint sp-effect1">
+                    <div class="row">
+                    <!-- Service 1 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-puzzle-piece"></i></div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Browser friendly</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service 2 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-trophy"></i></div>
+                                <div class="media-body">
+                                   <h3 class="media-heading">First class design</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service 3 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-thumbs-up"></i></div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Profesional scheme for freelancers</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Service 4 -->
+                    	<div class="col-sm-6 col-md-6 col-lg-12">
+                            <div class="media">
+                                <div class="pull-left showcase-icon"><i class="fa fa-arrows"></i></div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Fully responsive</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur ad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                   <div class="text-center showcase-button">
+                   		<a class="btn btn-primary btn-lg" role="button"><i class="fa fa-bolt"></i> See in action</a>
+                   </div>
+                </div>            
+            
+                <div class="col-lg-6 col-sm-8 col-md-8 col-md-offset-2 col-sm-offset-2 col-lg-offset-0 showcase-carousel hidden-xs scrollpoint sp-effect2">
+                    <img src="image/imac.png" class="img-responsive" alt="">
+                    
+                    <div id="carousel-reference" class="carousel slide" data-ride="carousel">
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active"><img src="image/image_01.png" alt=""></div>
+                            <div class="item"><img src="image/image_02.png" alt=""></div>
+                        </div>
+                        
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-reference" data-slide="prev"><i class="fa fa-arrow-left"></i></a>
+                        <a class="right carousel-control" href="#carousel-reference" data-slide="next"><i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	SHOWCASE - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	QUOTES - START
+    =========================== -->   
+    <section id="quotes" class="content-first">
+        <div class="container">
+            <div class="row scrollpoint sp-effect3">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <blockquote class="blockquote-reverse">
+                        <p><i class="fa fa-quote-left"></i> Design is not just what it looks like and feels like. Design is how it works.</p>
+                        <footer> Steve Jobs</footer>
+                    </blockquote>
+                </div>   	
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	QUOTES - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	REFERENCE - START
+    =========================== -->
+    <section id="reference" class="content-second">
+        <h2 class="scrollpoint sp-effect3">Reference</h2>
+        <p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+   		<ul class="grid cs-style-4">
+				<li>
+					<figure class="scrollpoint sp-effect1">
+						<div><img src="image/ref1.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+                
+                <li>
+					<figure class="scrollpoint sp-effect3">
+						<div><img src="image/ref2.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+                
+                <li>
+					<figure class="scrollpoint sp-effect2">
+						<div><img src="image/ref3.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+                
+                <li>
+					<figure class="scrollpoint sp-effect1">
+						<div><img src="image/ref4.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+                
+                <li>
+					<figure class="scrollpoint sp-effect3">
+						<div><img src="image/ref5.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+                
+                <li>
+					<figure class="scrollpoint sp-effect2">
+						<div><img src="image/ref6.png" alt="img04"></div>
+						<figcaption>
+							<h3>Lorem ipsum</h3>
+							<a href="portfolio.html">Show me</a>
+						</figcaption>
+					</figure>
+				</li>
+				
+			</ul>
+    
+	</section>
+    <!-- ==========================
+    	REFERENCE - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	BLOG - START
+    =========================== -->   
+    <section id="blog" class="content-first">
+    	<div class="container">
+        	<h2 class="scrollpoint sp-effect3">Latest Blog Posts</h2>
+        	<p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+        </div>
+            
+        <div class="line hidden-xs">
+        	<div class="container">
+                <div class="row">
+                    <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+                    <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+                    <div class="col-sm-4"><i class="fa fa-bullhorn"></i></div>
+                </div>
+            </div>
+        </div>
+		
+        <div class="container">
+            <div class="row"><!-- MAIN ROW - Start -->
+            	<!-- BLOG POST - Start -->
+                <div class="col-sm-4 scrollpoint sp-effect1">
+                	<div class="blog-post">
+                    	<div class="blog-body">
+                    		<h3>Lorem Ipsum</h3>
+                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                        	<a href="blog.html" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="blog-info">
+                        	<a><i class="fa fa-comment"></i> 352</a>
+                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOG POST - End -->
+                
+                <!-- BLOG POST - Start -->
+                <div class="col-sm-4 scrollpoint sp-effect3">
+                	<div class="blog-post">
+                    	<div class="blog-body">
+                    		<h3>Lorem Ipsum</h3>
+                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                        	<a href="blog.html" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="blog-info">
+                        	<a><i class="fa fa-comment"></i> 352</a>
+                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOG POST - End -->
+                
+                <!-- BLOG POST - Start -->
+                <div class="col-sm-4 scrollpoint sp-effect2">
+                	<div class="blog-post">
+                    	<div class="blog-body">
+                    		<h3>Lorem Ipsum</h3>
+                        	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum. At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+                        	<a href="blog.html" class="btn btn-primary">Read More</a>
+                        </div>
+                        <div class="blog-info">
+                        	<a><i class="fa fa-comment"></i> 352</a>
+                            <a><i class="fa fa-calendar"></i> 21/03/2014</a>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- BLOG POST - End -->
+                
+            </div><!-- MAIN ROW - end -->
+        </div><!-- CONTAINER - end -->
+    </section>
+    <!-- ==========================
+    	BLOG - END 
+    =========================== --> 
+       
+    <!-- ==========================
+    	PRICING - START
+    =========================== -->   
+    <section id="pricing" class="content-second">
+        <div class="container">
+        	<h2 class="scrollpoint sp-effect3">Pricing plans</h2>
+        	<p class="scrollpoint sp-effect3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+            <div class="row">
+            <!-- PRICING TABLE FIRST - start --> 
+                <div class="col-sm-4 scrollpoint sp-effect1"><!-- PRICING TABLE FIRST - start -->  
+                    <div class="pricing-table"><!-- Pricing table - start --> 
+                        <div class="pricing-headline">
+                        	<h3>Lite</h3>
+                            <div class="prize">$99</div>
+                        </div>
+                        
+                        <ul class="list-unstyled">
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                        </ul>
+                        
+                        <div class="btn-wrapper">
+                        <a class="btn btn-primary">Order</a>
+                        </div>
+                        
+                        
+                    </div><!-- Pricing table - end-->      
+           		</div><!-- COL-SM-4 - end --> 
+                  
+            	<div class="col-sm-4 scrollpoint sp-effect3"><!-- PRICING TABLE FIRST - start -->  
+                    <div class="pricing-table active"><!-- Pricing table - start --> 
+                        <div class="pricing-headline">
+                        	<h3>Standard</h3>
+                            <div class="prize">$150</div>
+                        </div>
+                        
+                        <ul class="list-unstyled">
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                        </ul>
+                        
+                        <div class="btn-wrapper">
+                        <a class="btn btn-primary">Order</a>
+                        </div>
+                        
+                        
+                    </div><!-- Pricing table - end-->      
+           		</div><!-- COL-SM-4 - end --> 
+                
+                <div class="col-sm-4 scrollpoint sp-effect2"><!-- PRICING TABLE FIRST - start -->  
+                    <div class="pricing-table"><!-- Pricing table - start --> 
+                        <div class="pricing-headline">
+                        	<h3>Premium</h3>
+                            <div class="prize">$350</div>
+                        </div>
+                        
+                        <ul class="list-unstyled">
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                            <li><i class="fa fa-check"></i> Lorem Ipsum</li>
+                            <li><i class="fa fa-times"></i> Lorem Ipsum</li>
+                            <li><strong>150</strong> Lorem Ipsum</li>
+                        </ul>
+                        
+                        <div class="btn-wrapper">
+                        <a class="btn btn-primary">Order</a>
+                        </div>
+                        
+                        
+                    </div><!-- Pricing table - end-->      
+           		</div><!-- COL-SM-4 - end -->   
+            
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	PRICING - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	TESTIMONIALS - START
+    =========================== -->   
+    <section id="testimonials" class="content-first">
+        <div class="container">
+        	<h2 class="scrollpoint sp-effect3 text-center">Testimonials</h2>
+        	<p class="scrollpoint sp-effect3 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in turpis quam. Nulla quis eleifend lectus.</p> 
+            <div class="row">
+            	
+                <!-- TESTIMONIAL 1 - START -->
+                <div class="col-sm-6 scrollpoint sp-effect1">
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/tom.png" alt=""></a>
+                        <div class="media-body">
+                            <h4 class="media-heading">John Doe</h4>
+                            <span>Webdesigner</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- TESTIMONIAL 1 - END -->
+                
+                <!-- TESTIMONIAL 2 - START -->
+                <div class="col-sm-6 scrollpoint sp-effect2">
+                    <div class="media">
+                        <a class="pull-left" href="#"><img class="media-object img-circle" src="image/suzanne.png" alt=""></a>
+                        <div class="media-body">
+                            <h4 class="media-heading">John Doe</h4>
+                            <span>Webdesigner</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sed volutpat est. Donec lobortis interdum volutpat. Maecenas bibendum dui quis pharetra tincidunt. Praesent posuere eu velit at scelerisque.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- TESTIMONIAL 2 - END -->
+                
+            </div>
+            
+        </div>
+    </section>
+    <!-- ==========================
+    	TESTIMONIALS - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	CONTACT - START
+    =========================== -->   
+    <section id="contact" class="content-first">
+        <div class="container">
+        	<h2 class="scrollpoint sp-effect3">Contact me</h2>
+            <div class="contact-alert">
+            </div>
+            <div class="row">
+            <!-- PRICING TABLE FIRST - start --> 
+                <div class="col-sm-12">
+                	<img src="image/macbook.png" class="img-responsive hidden-xs" alt="">
+                    
+                    <div class="macbook-inner black">
+                    	<div class="row scrollpoint sp-effect4">
+                        	<div class="col-sm-8">
+                            	<h3 class="hidden-xs">Leave a message</h3>
+                                
+                                <form role="form" id="contactForm">
 
-    <meta charset="utf-8">
-
-    <title>welcome</title>
-
-    <meta name="generator" content="Wix.com Website Builder">
-
-    <meta name="fb_admins_meta_tag" content="">
-    <link rel="shortcut icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="https://static.parastorage.com/client/pfavico.ico" type="image/x-icon">
-    <script type="text/javascript">
-        var santaBase = 'https://static.parastorage.com/services/santa/1.2658.25';
-        var clientSideRender = true;
-    </script>
-
-    <script defer="" src="https://static.parastorage.com/services/third-party/requirejs/2.1.15/require.min.js"></script>
-
-    <script defer="" src="https://static.parastorage.com/polyfill/v2/polyfill.min.js?rum=0"></script>
-
-    <script defer="" src="https://static.parastorage.com/services/santa/1.2658.25/app/main-r.min.js"></script>
-
-    <link rel="preload" href="https://static.parastorage.com/unpkg/lodash@4.17.4/lodash.min.js" as="script">
-    <link rel="preload" href="https://static.parastorage.com/unpkg/zepto@1.2.0/dist/zepto.min.js" as="script">
-    <link rel="preload" href="https://static.parastorage.com/unpkg/react@15.5.4/dist/react-with-addons.min.js" as="script">
-
-
-    <link rel="preconnect" href="https://static.wixstatic.com/" crossorigin="">
-    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin="">
-
-    <meta http-equiv="X-Wix-Renderer-Server" content="app-jvm-12-181.96.wixprod.net">
-    <meta http-equiv="X-Wix-Meta-Site-Id" content="28cb540d-bfc1-46a2-9751-660c10cdcdd4">
-    <meta http-equiv="X-Wix-Application-Instance-Id" content="e562ef9d-4842-4477-8ac6-ae53097c60e9">
-    <meta http-equiv="X-Wix-Published-Version" content="603">
-
-    <meta http-equiv="etag" content="506812a6cb5467ab07e1d4b6fd8f7bf3">
-
-    <meta property="og:type" content="website">
-
-    <meta property="og:site_name" content="welcome">
-    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
-
-    <meta id="wixMobileViewport" name="viewport" content="width=980, user-scalable=yes">
-
-
-
-
-
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="text" class="form-control" placeholder="First Name" id="firstname" data-validation-required-message="Please enter your first name." aria-invalid="false">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="text" class="form-control" placeholder="Last Name" id="lastname" data-validation-required-message="Please enter your last name." aria-invalid="false">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <input type="email" class="form-control" placeholder="Email" id="email" data-validation-required-message="Please enter your email address." aria-invalid="false">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group control-group">
+                                        <div class="controls">
+                                            <p class="help-block"></p>
+                                            <textarea class="form-control" placeholder="Message" id="message" data-validation-required-message="Please enter some message." aria-invalid="false"></textarea>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary">Send message</button>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                            <div class="col-sm-4">
+                            
+                            <img src="image/jonathan.png" class="contact-image image-responsive hidden-xs hidden-sm" alt="" />
+                            	<div class="contact-info">
+                                	<p>John Doe</p>
+                                    <p>795 Folsom Ave, Suite 600</p>
+                                    <p>San Francisco, CA 94107</p>
+                                    <p>123-456-7890</p>
+                                </div>
+                            </div>
+                    	</div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	CONTACT - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	FOOTER - START
+    =========================== -->   
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 scrollpoint sp-effect3">
+                
+               			<ul class="brands brands-inline">
+                            <li><a href="#"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>  
+                    
+                    <p>© John Doe The Freelancer 2014 All right reserved. Designed by <a href="http://pixelized.cz" target="_blank" class="btn btn-footer">Pixelized Studio</a></p>
+                </div>   	
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+    	FOOTER - END 
+    =========================== -->
+    
+    <!-- ==========================
+    	JS 
+    =========================== -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/creative-brands.js"></script>
+    <script src="js/jquery.easy-pie-chart.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/custom.js"></script>
     <script>
-        // BEAT MESSAGE
-        try {
-            window.wixBiSession = {
-                initialTimestamp : Date.now(),
-                viewerSessionId: 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c)
-                    { var r = Math.random()*16|0, v = c == 'x' ? r : (r&0x3|0x8); return v.toString(16); }
-                )
-            };
-            (new Image()).src = 'https://frog.wix.com/bt?src=29&evid=3&pn=1&et=1&v=1.2658.25&msid=28cb540d-bfc1-46a2-9751-660c10cdcdd4&vsi=' + wixBiSession.viewerSessionId +
-                '&url=' + encodeURIComponent(location.href.replace(/^http(s)?:\/\/(www\.)?/, '')) +
-                '&isp=1&st=2&ts=0&iss=0&c=' + wixBiSession.initialTimestamp;
-        } catch (e){}
-        // BEAT MESSAGE END
+    $(function () { 
+		$("input,textarea").jqBootstrapValidation({
+        	preventSubmit: true,
+			
+			submitSuccess: function($form, event) {
+				event.preventDefault(); // prevent default submit behaviour
+				// get values from FORM
+				var firstname = $("input#firstname").val();
+				var lastname = $("input#lastname").val();
+				var email = $("input#email").val();
+				var message = $("textarea#message").val();
+	
+				$.ajax({
+					url: "send.php",
+					type: "POST",
+					data: {
+						firstname: firstname,
+						lastname: lastname,
+						email: email,
+						message: message
+					},
+					cache: false,
+					success: function() {
+						// Success message
+						$('.contact-alert').html("<div class='alert alert-success'>");
+						$('.contact-alert > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Your message has been sent.</strong></div>");
+						//clear all fields
+						$('#contactForm').trigger("reset");
+					},
+					error: function() {
+						// Fail message
+						$('.contact-alert').html("<div class='alert alert-danger'>");
+						$('.contact-alert > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'><i class='fa fa-times'></i></button><strong>Sorry, it seems that my mail server is not responding. Please try again later!</strong></div>");
+						//clear all fields
+						$('#contactForm').trigger("reset");
+					},
+				})
+			}
+		});
+	});
     </script>
-
-
-
-    <!-- META DATA -->
-    <script type="text/javascript">
-
-        var serviceTopology = {"serverName":"app-jvm-12-181.96.wixprod.net","cacheKillerVersion":"1","staticServerUrl":"https://static.parastorage.com/","usersScriptsRoot":"https://static.parastorage.com/services/wix-users/2.660.0","biServerUrl":"https://frog.wix.com/","userServerUrl":"https://users.wix.com/","billingServerUrl":"https://premium.wix.com/","mediaRootUrl":"https://static.wixstatic.com/","logServerUrl":"https://frog.wix.com/plebs","monitoringServerUrl":"https://TODO/","usersClientApiUrl":"https://users.wix.com/wix-users","publicStaticBaseUri":"https://static.parastorage.com/services/wix-public/1.235.0","basePublicUrl":"https://www.wix.com/","postLoginUrl":"https://www.wix.com/my-account","postSignUpUrl":"https://www.wix.com/new/account","baseDomain":"wix.com","staticMediaUrl":"https://static.wixstatic.com/media","staticAudioUrl":"https://music.wixstatic.com/mp3","staticDocsUrl":"https://docs.wixstatic.com/ugd","emailServer":"https://assets.wix.com/common-services/notification/invoke","blobUrl":"https://static.parastorage.com/wix_blob","htmlEditorUrl":"http://editor.wix.com/html","siteMembersUrl":"https://users.wix.com/wix-sm","scriptsLocationMap":{"dbsm-viewer-app":"https://static.parastorage.com/services/dbsm-viewer-app/1.191.0","wix-music-embed":"https://static.parastorage.com/services/wix-music-embed/1.26.0","santa-resources":"https://static.parastorage.com/services/santa-resources/1.2.0","wixapps":"https://static.parastorage.com/services/wixapps/2.486.0","ecommerce":"https://static.parastorage.com/services/ecommerce/1.203.0","dbsm-editor-app":"https://static.parastorage.com/services/dbsm-editor-app/1.373.0","langs":"https://static.parastorage.com/services/langs/2.577.0","semi-native-sdk":"https://static.parastorage.com/services/semi-native-sdk/1.7.0","automation":"https://static.parastorage.com/services/automation/1.23.0","web":"https://static.parastorage.com/services/web/2.1229.79","sitemembers":"https://static.parastorage.com/services/sm-js-sdk/1.31.0","js-wixcode-sdk":"https://static.parastorage.com/services/js-wixcode-sdk/1.201.0","tpa":"https://static.parastorage.com/services/tpa/2.1065.0","wix-form-builder":"https://static.parastorage.com/services/wix-form-builder/1.122.0","wix-code-platform":"https://static.parastorage.com/services/wix-code-platform/1.28.0","santa":"https://static.parastorage.com/services/santa/1.2658.25","skins":"https://static.parastorage.com/services/skins/2.1229.79","core":"https://static.parastorage.com/services/core/2.1229.79","santa-langs":"https://static.parastorage.com/services/santa-langs/1.876.0","santa-members-viewer-app":"https://static.parastorage.com/services/santa-members-viewer-app/1.41.0","ck-editor":"https://static.parastorage.com/services/ck-editor/1.87.3","bootstrap":"https://static.parastorage.com/services/bootstrap/2.1229.79","js-platform-apps-configuration":"https://static.parastorage.com/services/js-platform-apps-configuration/1.7.0","santa-members-editor-app":"https://static.parastorage.com/services/santa-members-editor-app/1.101.0"},"developerMode":false,"productionMode":true,"staticServerFallbackUrl":"https://sslstatic.wix.com/","staticVideoUrl":"https://video.wixstatic.com/","cloudStorageUrl":"https://static.wixstatic.com/","usersDomainUrl":"https://users.wix.com/wix-users","scriptsDomainUrl":"https://static.parastorage.com/","userFilesUrl":"https://static.parastorage.com/","staticHTMLComponentUrl":"https://www-yangxue-me.filesusr.com/","secured":true,"ecommerceCheckoutUrl":"https://www.safer-checkout.com/","premiumServerUrl":"https://premium.wix.com/","digitalGoodsServerUrl":"https://dgs.wixapps.net/","wixCloudBaseDomain":"wix-code.com","mailServiceSuffix":"/_api/common-services/notification/invoke","staticVideoHeadRequestUrl":"https://storage.googleapis.com/video.wixstatic.com","protectedPageResolverUrl":"https://site-pages.wix.com/_api/wix-public-html-info-webapp/resolve_protected_page_urls","mediaUploadServerUrl":"https://files.wix.com/","staticServerWixDomainUrl":"https://www.wix.com/_partials","adaptiveVideoDomain":"https://files.wix.com/","publicStaticsUrl":"https://static.parastorage.com/services/wix-public/1.235.0"};
-        var santaModels = true;
-        var rendererModel = {"metaSiteId":"28cb540d-bfc1-46a2-9751-660c10cdcdd4","siteInfo":{"documentType":"UGC","applicationType":"HtmlWeb","siteId":"e562ef9d-4842-4477-8ac6-ae53097c60e9","siteTitleSEO":"welcome"},"clientSpecMap":{"2":{"type":"appbuilder","applicationId":2,"appDefinitionId":"3d590cbc-4907-4cc4-b0b1-ddf2c5edf297","instanceId":"1463af17-b779-08ad-402b-c17310f8f720","state":"Initialized"},"13":{"type":"sitemembers","applicationId":13,"collectionType":"Open","collectionFormFace":"Register","smcollectionId":"3a6c2f31-f629-46f6-a2b3-d6ed373a71f8"},"16":{"type":"wixapps","applicationId":16,"appDefinitionId":"61f33d50-3002-4882-ae86-d319c1a249ab","datastoreId":"1463af17-b7f2-5ef7-2645-0bcfdcc3ea34","packageName":"blog","state":"Initialized","widgets":{"f72fe377-8abc-40f2-8656-89cfe00f3a22":{"widgetId":"f72fe377-8abc-40f2-8656-89cfe00f3a22","defaultHeight":300,"defaultWidth":210},"c340212a-6e2e-45cd-9dc4-58d01a5b63a7":{"widgetId":"c340212a-6e2e-45cd-9dc4-58d01a5b63a7","defaultHeight":300,"defaultWidth":210},"e000b4bf-9ff1-4e66-a0d3-d4b365ba3af5":{"widgetId":"e000b4bf-9ff1-4e66-a0d3-d4b365ba3af5","defaultHeight":400,"defaultWidth":210},"1b8c501f-ccc2-47e7-952a-47e264752614":{"widgetId":"1b8c501f-ccc2-47e7-952a-47e264752614","defaultHeight":280,"defaultWidth":916},"43c2a0a8-f224-4a29-bd19-508114831a3a":{"widgetId":"43c2a0a8-f224-4a29-bd19-508114831a3a","defaultHeight":40,"defaultWidth":210},"56ab6fa4-95ac-4391-9337-6702b8a77011":{"widgetId":"56ab6fa4-95ac-4391-9337-6702b8a77011","defaultHeight":400,"defaultWidth":210},"31c0cede-09db-4ec7-b760-d375d62101e6":{"widgetId":"31c0cede-09db-4ec7-b760-d375d62101e6","defaultHeight":600,"defaultWidth":680},"33a9f5e0-b083-4ccc-b55d-3ca5d241a6eb":{"widgetId":"33a9f5e0-b083-4ccc-b55d-3ca5d241a6eb","defaultHeight":220,"defaultWidth":210},"c7f57b50-8940-4ff1-83c6-6756d6f0a1f4":{"widgetId":"c7f57b50-8940-4ff1-83c6-6756d6f0a1f4","defaultHeight":220,"defaultWidth":210},"4de5abc5-6da2-4f97-acc3-94bb74285072":{"widgetId":"4de5abc5-6da2-4f97-acc3-94bb74285072","defaultHeight":800,"defaultWidth":800},"ea63bc0f-c09f-470c-ac9e-2a408b499f22":{"widgetId":"ea63bc0f-c09f-470c-ac9e-2a408b499f22","defaultHeight":800,"defaultWidth":800}}}},"premiumFeatures":["ShowWixWhileLoading","AdsFree","HasDomain"],"geo":"USA","languageCode":"en","previewMode":false,"userId":"7d68b9c8-50c9-46d3-a93a-0616ab39fd3a","siteMetaData":{"preloader":{"uri":"","enabled":false},"adaptiveMobileOn":true,"quickActions":{"socialLinks":[],"colorScheme":"dark","configuration":{"quickActionsMenuEnabled":false,"navigationMenuEnabled":true,"phoneEnabled":false,"emailEnabled":false,"addressEnabled":false,"socialLinksEnabled":false}},"contactInfo":{"companyName":"","phone":"","fax":"","email":"","address":""}},"runningExperiments":{"sv_fullstory":"new","appMarketCache":"new","selectiveWixapps":"new","sv_ampLinkTag":"new","sv_twitterMetaTags":"new","sv_mobileBgFixed":"new","gradualReorderOnSave":"new","sv_splitRouterUrls":"new","selectiveDialogs":"new","unescapeHeadTags":"old","useBeaconForPerformanceEvent":"new","viewPortImageLoadingBi":"3000","sv_fixedMobileHeader":"new","useBeacon":"new","sv_blogSocialCounters":"new","enableNewWixAds":"new","viewPortImageLoading":"new","allowScriptTagTypeJsonOnSeoMetatag":"old","se_proGalleryBGDataFixer":"new","sv_qabUnhide":"new","sv_inlineExternalStyles":"new","sv_mobileBG":"new","sv_blogAuthorAsALink":"new","sv_mobileSemantics":"new","wixCodeNoIframe":"new","selectiveDownload":"new","sv_tpaAddChatApp":"new","sv_initialValidationAfterAutoSaveApply":"new","prefetchComps":"new","sv_permissionInfoUpdateOnFirstSave":"new","sv_santaMembers":"new","sv_fullPartialSave":"new","sv_horizontalContactFormSkin":"new","sv_contactFormEmailSecurityFix":"new","sv_browserLangFix":"new","sv_robotsIndexingMetaTag":"new","sv_useMobileTightLayout":"new","vsiCoin":"new","sv_mobileSpachtelPattern":"new","sv_tpaPerformanceBi":"new","sv_unpackTextMeasureByMinHeight":"new","sv_bookingInstallScript":"new","sv_requireSplitError":"new","sv_tpaFilterSubSections":"new"},"urlFormatModel":{"format":"slash","forbiddenPageUriSEOs":["app","apps","_api","robots.txt","sitemap.xml","feed.xml","sites"],"pageIdToResolvedUriSEO":{}},"passwordProtectedPages":[],"useSandboxInHTMLComp":false,"siteMediaToken":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhcHA6MzQ2NjQ5MDcwMDI5NzIwNiIsInN1YiI6InVzZXI6N2Q2OGI5YzgtNTBjOS00NmQzLWE5M2EtMDYxNmFiMzlmZDNhIiwiYXVkIjoidXJuOnNlcnZpY2U6ZmlsZS51cGxvYWQiLCJleHAiOjE1MTU3OTk5MDMsImlhdCI6MTUxNTE5NTEwMywianRpIjoicVVpMWtSdTgxTmlCcDJXeWVPemtLdyJ9.icEe2ubUANhsoOr6KtcUwmL9ZOdLnATb_Iln1sCiaMQ","pagesPlatformApplications":{}};
-        var publicModel = {"domain":"yangxue.me","externalBaseUrl":"https:\/\/www.yangxue.me\/","unicodeExternalBaseUrl":"https:\/\/www.yangxue.me\/","pageList":{"pages":[{"pageId":"c1rez","title":"Home","pageUriSEO":"homepage","pageJsonFileName":"7d68b9_28a806bd4722b5574db3c7a1b13ad0aa_602.json"},{"pageId":"nuk24","title":"XDrone","pageUriSEO":"x-drone","pageJsonFileName":"7d68b9_c248288ee0fb50958ebb6de690c26be2_602.json"},{"pageId":"c7xw","title":"TalkToTeacher","pageUriSEO":"talktoteacher","pageJsonFileName":"7d68b9_16cf65eb3a92df9333710d2f8e024b47_603.json"},{"pageId":"cbeq","title":"BloodSugarDiary","pageUriSEO":"bloodsugardiary","pageJsonFileName":"7d68b9_f220f8686aebcaf3502fb03b51a792df_602.json"},{"pageId":"c298","title":"HelpYourself","pageUriSEO":"helpyourself","pageJsonFileName":"7d68b9_e2b525b393d4211a5b6aaf1952f9f847_602.json"},{"pageId":"bhji2","title":"Basecamp","pageUriSEO":"basecamp","pageJsonFileName":"7d68b9_49e909321fcef4d2317e5d6705df2921_602.json"},{"pageId":"jluda","title":"Graphic Design","pageUriSEO":"graphic-design","pageJsonFileName":"7d68b9_7c6138d48cfc6d2dc5dfa1e6d065b1c5_603.json"},{"pageId":"mbsnl","title":"SWUN","pageUriSEO":"swun","pageJsonFileName":"7d68b9_5fa950f0db2667b3a3435431a6edc76a_602.json"},{"pageId":"ubbkv","title":"Works","pageUriSEO":"projects","pageJsonFileName":"7d68b9_7facba8b1be0a36b7458ad987c9936c8_602.json"},{"pageId":"c1n22","title":"VeeR VR","pageUriSEO":"veer","pageJsonFileName":"7d68b9_b23623da3d29a394d5f359cb9416f41d_602.json"},{"pageId":"f8out","title":"HuakeDataManagement","pageUriSEO":"huakedatamanagement","pageJsonFileName":"7d68b9_48cd740dd0872bb432a9f51949889fe1_602.json"},{"pageId":"a02yh","title":"West China Hospital, SCU","pageUriSEO":"west-china-hospital-scu","pageJsonFileName":"7d68b9_97f47d39684b5db054ab94da7f6802b1_602.json"}],"mainPageId":"c1rez","masterPageJsonFileName":"7d68b9_369be31ef88b79062ce7c2fdb6b6980a_603.json","topology":[{"baseUrl":"https:\/\/static.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/staticorigin.wixstatic.com\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/www.yangxue.me\/","parts":"sites\/{filename}.z?v=3"},{"baseUrl":"https:\/\/fallback.wix.com\/","parts":"wix-html-editor-pages-webapp\/page\/{filename}"}]},"timeSincePublish":66607044,"favicon":"","deviceInfo":{"deviceType":"Desktop","browserType":"Chrome","browserVersion":63},"siteRevision":603,"sessionInfo":{"hs":1010361707,"svSession":"ffb49861aff7495e7589d2593ace849690316b3816b8eac8edb5b403f743c28b5ba8ec6d7cbf9c903e0eecb5690d6fb01e60994d53964e647acf431e4f798bcdae4698ba6732a638974ac15dda0d16ac13bb23f14a5c6c017fa3fba5807f67d2","ctToken":"TzIwX3RfZndXZjFTd29nNFB2WWVUaXZYX0VfQThmX1ZJTEFOeTNxcUlnc3x7InVzZXJBZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzEzXzIpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS82My4wLjMyMzkuODQgU2FmYXJpLzUzNy4zNiIsInZhbGlkVGhyb3VnaCI6MTUxNTc5OTkwMzU5M30","isAnonymous":false},"metaSiteFlags":[],"siteMembersProtectedPages":[],"indexable":true,"hasBlogAmp":false,"renderTime":1515195103594};
-
-
-        var googleAnalytics = ""
-        ;
-
-        var ipAnonymization = false;
-
-        var googleRemarketing = "";
-        var googleTagManager = "";
-        var facebookRemarketing = "";
-        var yandexMetrika = "";
-
-    </script>
-
-
-    <link rel="preload" as="fetch" href="https://static.wixstatic.com/sites/7d68b9_369be31ef88b79062ce7c2fdb6b6980a_603.json.z?v=3">
-    <link rel="preload" as="fetch" href="https://static.wixstatic.com/sites/7d68b9_28a806bd4722b5574db3c7a1b13ad0aa_602.json.z?v=3">
-
-    <meta name="fragment" content="!">
-
-    <!-- DATA -->
-    <script type="text/javascript">
-        var adData = {};
-        var mobileAdData = {};
-        var usersDomain = "https://users.wix.com/wix-users";
-    </script>
-    <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="lodash" src="//static.parastorage.com/unpkg/lodash@4.17.4/lodash.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="platformInit" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/platformInit/platformInit.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="zepto" src="//static.parastorage.com/unpkg/zepto@1.2.0/dist/zepto.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="coreUtilsLib" src="//static.parastorage.com/unpkg/santa-core-utils@1.232.0/dist/coreUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="imageClientLib" src="//static.parastorage.com/unpkg/santa-core-utils@1.232.0/dist/imageClientApi.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="coreUtils" src="https://static.parastorage.com/services/santa/1.2658.18/packages-bin/coreUtils/coreUtils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core" src="https://static.parastorage.com/services/santa/1.2658.25/packages-bin/core/core.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="layout" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/layout/layout.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="skins" src="https://static.parastorage.com/services/santa/1.2658.23/packages-bin/skins/skins.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="react" src="//static.parastorage.com/unpkg/react@15.5.4/dist/react-with-addons.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="TweenMax" src="https://static.parastorage.com/services/third-party/tweenmax/1.19.0/minified/TweenMax.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="components" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/components/components.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mobx" src="https://static.parastorage.com/services/santa/1.2658.25/node_modules/mobx/lib/mobx.umd.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mobx-react" src="https://static.parastorage.com/services/santa/1.2658.25/node_modules/mobx-react/index.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="remoteDOM" src="//static.parastorage.com/unpkg/@shimil/remote-dom@5.0.0/dist/local.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="animations" src="https://static.parastorage.com/services/santa/1.2658.25/packages-bin/first-load/first-load.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tpa" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/tpa/tpa.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="dataFixer" src="https://static.parastorage.com/services/santa/1.2658.19/packages-bin/dataFixer/dataFixer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="siteUtils" src="https://static.parastorage.com/services/santa/1.2658.16/packages-bin/siteUtils/siteUtils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="utils" src="https://static.parastorage.com/services/santa/1.2658.25/packages-bin/utils/utils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="platformUtils" src="https://static.parastorage.com/services/santa/1.2658.25/node_modules/santa-platform-utils/dist/platformUtils-bundle.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="santaProps" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/santaProps/santaProps.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="reactDOM" src="//static.parastorage.com/unpkg/react-dom@15.5.4/dist/react-dom.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="create-react-class" src="//static.parastorage.com/unpkg/create-react-class@15.6.0-rc.0/create-react-class.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ScrollToPlugin" src="https://static.parastorage.com/services/third-party/tweenmax/1.19.0/minified/plugins/ScrollToPlugin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="compUtils" src="https://static.parastorage.com/services/santa/1.2648.6/packages-bin/compUtils/compUtils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mobileLayoutUtils" src="https://static.parastorage.com/services/santa/1.2658.25/node_modules/santa-mobile-core/dist/mobileLayoutUtils.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="pmrpc" src="//static.parastorage.com/unpkg/pm-rpc@1.0.7/build/pm-rpc.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="wixFreemiumBanner" src="https://static.parastorage.com/services/santa/1.2658.14/packages-bin/wixFreemiumBanner/wixFreemiumBanner.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="translationsUtils" src="https://static.parastorage.com/services/santa/1.2635.10/packages-bin/translationsUtils/translationsUtils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="color" src="https://static.parastorage.com/services/third-party/color-convert/0.2.0/color.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="xss" src="//static.parastorage.com/unpkg/xss@0.2.12/dist/xss.min.js"></script><style type="text/css">@charset "UTF-8";.wrapper.hidden{display:none}.wrapper.visible{display:block}.wrapper .desktop-top{position:fixed;top:0;right:39px;border-top:2px solid #459fed;border-bottom-left-radius:10px;border-bottom-right-radius:10px;transition:height .1s;cursor:pointer;overflow:hidden;color:#fff;display:block;font-family:wixFreemiumFontW01-55Roma,wixFreemiumFontW02-55Roma,wixFreemiumFontW10-55Roma,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;letter-spacing:.05em;font-size:13px;z-index:999}.wrapper .desktop-top:hover{min-height:72px;background-color:#43515c;padding-bottom:6px;word-wrap:break-word}.wrapper .desktop-top:hover>.hover1{display:block;font-family:wixFreemiumFontW01-35Thin,wixFreemiumFontW02-35Thin,wixFreemiumFontW10-35Thin,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;padding-top:4px}.wrapper .desktop-top:hover>.arrow,.wrapper .desktop-top:hover>.hover2{display:inline-block}.wrapper .desktop-top>.main{padding:0 6px 0 10px;text-align:center;line-height:26px;border-bottom-left-radius:10px;border-bottom-right-radius:10px;background-color:#20303c}.wrapper .desktop-top>.main>.arrow,.wrapper .desktop-top>.main>.banner1,.wrapper .desktop-top>.main>.banner2,.wrapper .desktop-top>.main>.wix{display:inline-block}.wrapper .desktop-top>.main>.wix{fill:#fff;width:28px;height:14px;padding:0 1px 4px;vertical-align:middle}.wrapper .desktop-top>.main>.wix>.dot{fill:#fc0}.wrapper .desktop-top>.hover1,.wrapper .desktop-top>.hover2{padding-left:14px;line-height:20px;display:none}.wrapper .desktop-top>.hover2{color:#459fed;padding-right:4px}.wrapper .desktop-top>.arrow{display:none;fill:none;stroke:#459fed;stroke-miterlimit:10;stroke-width:2px;height:10px;width:6px;padding-bottom:5px;vertical-align:bottom}.wrapper .desktop-bottom{position:fixed;width:100%;height:40px;background-color:#20303c;bottom:0;max-height:10vh;color:#fff;font-size:14px;display:inline-block;line-height:40px;text-align:center;letter-spacing:.05em;align-items:center;font-family:wixFreemiumFontW01-55Roma,wixFreemiumFontW02-55Roma,wixFreemiumFontW10-55Roma,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;transition:background-color .15s;cursor:pointer;z-index:999}.wrapper .desktop-bottom.preview{cursor:default}.wrapper .desktop-bottom:not(.preview):hover{background-color:#43515c}.wrapper .desktop-bottom>.contents .wix-logo{fill:#fff;width:36px;vertical-align:middle;padding-bottom:6px;height:16px}.wrapper .desktop-bottom>.contents .wix-logo>.dot{fill:#fc0}.wrapper .desktop-bottom>.contents .com{color:#fff}.wrapper .desktop-bottom>.contents>.arrow{fill:none;stroke:#459fed;stroke-miterlimit:10;stroke-width:2px;height:10px;padding-bottom:1px;vertical-align:middle}.wrapper .desktop-bottom>.contents>.second{color:#459fed;padding:0 5px 0 6px}@media (orientation:landscape) and (max-width:600px){.wrapper .mobile-top.not-preview{display:none}}.wrapper .mobile-top{position:relative;display:block;height:38px;top:0;width:100%;font-family:wixFreemiumFontW01-65Medi,wixFreemiumFontW02-65Medi,wixFreemiumFontW10-65Medi,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;letter-spacing:.05em;font-size:14px;color:#fff;background-color:#20303c;z-index:999;text-align:center;cursor:default}.wrapper .mobile-top.fixed-ad-mobile{position:fixed;width:320px;z-index:1000}.wrapper .mobile-top>.first{display:inline-block;text-align:center;line-height:38px}.wrapper .mobile-top .wix-logo{fill:#fff;width:30px;padding-bottom:4px;vertical-align:middle;height:15px}.wrapper .mobile-top .wix-logo>.dot{fill:#fc0}.wixAds_wrapper-old.hidden{display:none}.wixAds_wrapper-old.visible{display:block}.wixAds_wrapper-old .wixAdsdesktopWADTop{position:fixed;z-index:999;height:26px;top:0;right:50px;overflow:hidden;background-color:#404040;border-radius:0 0 6px 6px;pointer-events:all;cursor:pointer;-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out}.wixAds_wrapper-old .wixAdsdesktopWADTop:hover{height:97px;background-color:rgba(50,50,50,.8)}.wixAds_wrapper-old .wixAdsdesktopWADTop:hover .topLabel{background-color:#222}.wixAds_wrapper-old .topLabel{padding:6px;line-height:1.3em;width:100%;font-size:13px;color:#fff;font-weight:700;line-height:18px;text-align:justify;padding:5px 10px}.wixAds_wrapper-old .topLabel .smallMusa{width:16px;margin-right:5px;background-position:0 0}.wixAds_wrapper-old .topLabel .smallLogo,.wixAds_wrapper-old .topLabel .smallMusa{display:inline-block;text-indent:-9999px;height:16px;background-image:url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");background-repeat:no-repeat}.wixAds_wrapper-old .topLabel .smallLogo{width:29px;background-position:-16px top}.wixAds_wrapper-old .topContent{font-size:13px;line-height:1.3em;color:#fff;font-weight:700;line-height:18px;text-align:justify;padding:5px 10px;width:100%}.wixAds_wrapper-old .topContent .emphasis{color:#fc0;line-height:26px}.wixAds_wrapper-old .desktop-bottom{position:fixed;z-index:999;width:100%;bottom:0;max-height:10vh}.wixAds_wrapper-old .desktop-bottom:hover .footerLabel,.wixAds_wrapper-old .desktop-bottom:hover .siteBanner{background-color:#222!important}.wixAds_wrapper-old .desktop-bottom .footerLabel{width:100%;height:40px;text-align:center;background-color:#404040;border-radius:6px 6px 0 0;pointer-events:all;cursor:pointer}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner{background-color:#404040;border-radius:6px 6px 0 0;width:100%;height:100%;text-align:center}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .bigMusa{text-indent:-9999px;width:36px;background-image:url("//static.wixstatic.com/media/0da768_0c5ce9e2ffa442bea0b79b690223a939~mv2.png");background-repeat:no-repeat;background-position:0 100%;position:relative;top:-19px}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .wrapper{padding:5px 0}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .wrapper div{display:inline-block;height:30px}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .txt{line-height:47px;color:#fff;font-weight:700;font-size:15px}.wixAds_wrapper-old .desktop-bottom .footerLabel .siteBanner .txt a{color:#fff}.wixAds_wrapper-old .desktop-bottom .footerLabel .emphasis{color:#fc0;font-size:16px;text-transform:uppercase}.wixAds_wrapper-old .mobile-top{width:100%;height:30px;position:relative;display:block;text-align:center;background-color:#313131;z-index:999}.wixAds_wrapper-old .mobile-top .wixAdsmobileAdImg{height:30px}@media (orientation:landscape) and (max-width:600px){.wixAds_wrapper-old .mobile-top.not-preview{display:none}}.wixAds_wrapper-old .spacer{line-height:26px}@font-face{font-family:wixFreemiumFontW01-35Thin;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg")}@font-face{font-family:wixFreemiumFontW01-45Ligh;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg")}@font-face{font-family:wixFreemiumFontW01-55Roma;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg")}@font-face{font-family:wixFreemiumFontW01-65Medi;font-weight:700;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg")}@font-face{font-family:wixFreemiumFontW02-35Thin;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/30b6ffc3-3b64-40dd-9ff8-a3a850daf535.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/30b6ffc3-3b64-40dd-9ff8-a3a850daf535.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/775a65da-14aa-4634-be95-6724c05fd522.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/988eaaa7-5565-4f65-bb17-146b650ce9e9.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/3503a1a6-91c3-4c42-8e66-2ea7b2b57541.svg#3503a1a6-91c3-4c42-8e66-2ea7b2b57541") format("svg")}@font-face{font-family:wixFreemiumFontW02-45Ligh;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/88fcd49a-13c7-4d0c-86b1-ad1e258bd75d.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/9a2e4855-380f-477f-950e-d98e8db54eac.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/fa82d0ee-4fbd-4cc9-bf9f-226ad1fcbae2.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/48d599a6-92b5-4d43-a4ac-8959f6971853.svg#48d599a6-92b5-4d43-a4ac-8959f6971853") format("svg")}@font-face{font-family:wixFreemiumFontW02-55Roma;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/0b3a3fca-0fad-402b-bd38-fdcbad1ef776.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/d5af76d8-a90b-4527-b3a3-182207cc3250.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/1d238354-d156-4dde-89ea-4770ef04b9f9.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b68875cb-14a9-472e-8177-0247605124d7.svg#b68875cb-14a9-472e-8177-0247605124d7") format("svg")}@font-face{font-family:wixFreemiumFontW02-65Medi;font-weight:700;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/55f60419-09c3-42bd-b81f-1983ff093852.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b4a262e-3342-44e2-8ad7-719998a68134.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4a3ef5d8-cfd9-4b96-bd67-90215512f1e5.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/58ab5075-53ea-46e6-9783-cbb335665f88.svg#58ab5075-53ea-46e6-9783-cbb335665f88") format("svg")}@font-face{font-family:wixFreemiumFontW10-35Thin;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/93b6bf6a-418e-4a8f-8f79-cb9c99ef3e32.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/93b6bf6a-418e-4a8f-8f79-cb9c99ef3e32.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/c881c21b-4148-4a11-a65d-f35e42999bc8.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/03634cf1-a9c9-4e13-b049-c90d830423d4.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/1bc99c0a-298b-46f9-b325-18b5e5169795.svg#1bc99c0a-298b-46f9-b325-18b5e5169795") format("svg")}@font-face{font-family:wixFreemiumFontW10-45Ligh;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b85c7cc-6ad4-4226-83f5-9d19e2974123.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b85c7cc-6ad4-4226-83f5-9d19e2974123.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/835e7b4f-b524-4374-b57b-9a8fc555fd4e.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/2c694ef6-9615-473e-8cf4-d8d00c6bd973.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/3fc84193-a13f-4fe8-87f7-238748a4ac54.svg#3fc84193-a13f-4fe8-87f7-238748a4ac54") format("svg")}@font-face{font-family:wixFreemiumFontW10-65Medi;font-weight:700;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/7092fdcc-7036-48ce-ae23-cfbc9be2e3b0.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/5b29e833-1b7a-40ab-82a5-cfd69c8650f4.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/b0298148-2d59-44d1-9ec9-1ca6bb097603.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/ae1dea8c-a953-4845-b616-74a257ba72e6.svg#ae1dea8c-a953-4845-b616-74a257ba72e6") format("svg")}@font-face{font-family:wixFreemiumFontW10-55Roma;src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/f1feaed7-6bce-400a-a07e-a893ae43a680.eot?#iefix");src:url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/f1feaed7-6bce-400a-a07e-a893ae43a680.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/8ac9e38d-29c6-41ea-8e47-4ae4d2b1a4e1.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/4bd09087-655e-4abb-844c-dccdeb68003d.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/Helvetica/Fonts/df234d87-eada-4058-aa80-5871e7fbe1c3.svg#df234d87-eada-4058-aa80-5871e7fbe1c3") format("svg")}.wix-ads-2{width:100%}.wix-ads-2.hidden{display:none}.wix-ads-2.visible{display:block}.wix-ads-2.desktop{position:fixed;top:0}.wix-ads-2 .desktop-top{height:47px;background:#eff1f2;display:flex;justify-content:center;align-items:center;border-bottom:3px solid #a0138e;width:100%;z-index:999}.wix-ads-2 .desktop-top.preview{cursor:default}.wix-ads-2 .desktop-top>.contents .text{font-family:wixFreemiumFontW01-65Medi,wixFreemiumFontW02-65Medi,wixFreemiumFontW10-65Medi,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;font-size:14px;color:#20303c;line-height:24px}.wix-ads-2 .desktop-top>.contents .text .wix-logo{fill:#20303c;width:36px;vertical-align:middle;padding-bottom:6px;height:16px}.wix-ads-2 .desktop-top>.contents .text .wix-logo>.dot{fill:#fc0}.wix-ads-2 .desktop-top>.contents .text .com{color:#20303c}.wix-ads-2 .desktop-top>.contents .button{font-family:wixFreemiumFontW01-65Medi,wixFreemiumFontW02-65Medi,wixFreemiumFontW10-65Medi,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;font-size:14px;color:#a0138e;border:1px solid #a0138e;display:inline-flex;width:112px;height:35px;justify-content:center;align-items:center;border-radius:17px;margin-left:6px}.wix-ads-2 .desktop-top:hover{cursor:pointer;background:#fff}.wix-ads-2 .desktop-top:hover .button{color:#fff;background-color:#a0138e}.wix-ads-2 .mobile-top{height:35px;background:#eff1f2;display:flex;justify-content:center;align-items:center;border-bottom:3px solid #a0138e;width:100%;z-index:999;position:relative;top:0}.wix-ads-2 .mobile-top .content{font-family:wixFreemiumFontW01-65Medi,wixFreemiumFontW02-65Medi,wixFreemiumFontW10-65Medi,Helvetica Neue,Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;font-size:14px;color:#20303c;line-height:32px;letter-spacing:.05em}.wix-ads-2 .mobile-top .content .wix-logo{fill:#20303c;width:30px;vertical-align:middle;padding-bottom:6px;height:15px}.wix-ads-2 .mobile-top .content .wix-logo>.dot{fill:#fc0}.wix-ads-2 .mobile-top:not(.preview):hover{cursor:pointer;background:#fff}</style><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="data-capsule" src="//static.parastorage.com/unpkg/data-capsule@1.0.69/dist/statics/frame-listener.bundle.min.js"></script><style type="text/css">a,abbr,acronym,address,applet,b,big,blockquote,body,button,caption,center,cite,code,dd,del,dfn,div,dl,dt,em,fieldset,font,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,sup,table,tbody,td,tfoot,th,thead,title,tr,tt,u,ul,var{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent}body{font-size:10px;font-family:Arial,Helvetica,sans-serif}input,select,textarea{font-family:Helvetica,Arial,sans-serif;box-sizing:border-box}ol,ul{list-style:none}blockquote,q{quotes:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a{cursor:pointer;text-decoration:none}body,html{height:100%}body{overflow-x:auto;overflow-y:scroll}.testStyles{overflow-y:hidden}.reset-button{background:none;border:0;outline:0;color:inherit;font:inherit;line-height:normal;overflow:visible;padding:0;-webkit-appearance:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none}:focus{outline:none}.wixSiteProperties{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;overflow:hidden}.SITE_ROOT{min-height:100%;position:relative;margin:0 auto}.POPUPS_ROOT{left:0;top:0;width:100%;height:100%;overflow-x:auto;overflow-y:scroll;position:fixed;z-index:99999}.POPUPS_ROOT.mobile{z-index:1005}.POPUPS_WRAPPER{position:relative;overflow:hidden}.POPUPS_WRAPPER>div{margin:0 auto}.auto-generated-link{color:inherit}.warmup .hidden-on-warmup{visibility:hidden}html.device-phone body{overflow-y:auto}html.device-mobile-optimized.device-android{margin-bottom:1px}html.device-mobile-optimized.blockSiteScrolling>body{position:fixed;width:100%}html.device-mobile-optimized.media-zoom-mode>body{touch-action:manipulation}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER{height:100%;overflow:hidden}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop{height:100%}html.device-mobile-optimized.media-zoom-mode>body>#SITE_CONTAINER>.noop>.siteAspectsContainer{height:100%;z-index:1005}.siteAspectsContainer{position:absolute;top:0;margin:0 auto;left:0;right:0}body.device-mobile-optimized{overflow-x:hidden;overflow-y:scroll}body.device-mobile-optimized.qa-mode{overflow-y:auto}body.device-mobile-optimized #SITE_CONTAINER{width:320px;overflow-x:visible;margin:0 auto;position:relative}body.device-mobile-optimized>*{max-width:100%!important}body.device-mobile-optimized .SITE_ROOT{overflow-x:hidden;overflow-y:hidden}body.device-mobile-non-optimized #SITE_CONTAINER>:not(.mobile-non-optimized-overflow) .SITE_ROOT{overflow-x:hidden;overflow-y:auto}body.device-mobile-non-optimized.fullScreenMode{background-color:#5f6360}body.device-mobile-non-optimized.fullScreenMode #MOBILE_ACTIONS_MENU,body.device-mobile-non-optimized.fullScreenMode #SITE_BACKGROUND,body.device-mobile-non-optimized.fullScreenMode .SITE_ROOT{visibility:hidden}body.fullScreenMode{overflow-x:hidden!important;overflow-y:hidden!important}body.fullScreenMode.device-mobile-optimized #TINY_MENU{opacity:0;pointer-events:none}body.fullScreenMode-scrollable.device-mobile-optimized{overflow-x:hidden!important;overflow-y:auto!important}body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,body.fullScreenMode-scrollable.device-mobile-optimized .SITE_ROOT{overflow-x:hidden!important;overflow-y:hidden!important}body.fullScreenMode-scrollable.device-mobile-optimized #masterPage,body.fullScreenMode-scrollable.device-mobile-optimized #SITE_BACKGROUND{height:auto!important}.fullScreenOverlay{z-index:1005;position:fixed;left:0;top:-60px;right:0;bottom:0;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;overflow-y:hidden}.fullScreenOverlay>.fullScreenOverlayContent{margin:0 auto;position:absolute;right:0;top:60px;left:0;bottom:0;overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0)}.mobile-actions-menu-wrapper{z-index:1000}body[contenteditable]{overflow-x:auto;overflow-y:auto}.bold{font-weight:700}.italic{font-style:italic}.underline{text-decoration:underline}.lineThrough{text-decoration:line-through}.singleLineText{white-space:nowrap;text-overflow:ellipsis}.alignLeft{text-align:left}.alignCenter{text-align:center}.alignRight{text-align:right}.alignJustify{text-align:justify}ol.font_100,ul.font_100{color:#080808;font-family:"Arial, Helvetica, sans-serif",serif;font-size:10px;font-style:normal;font-variant:normal;font-weight:400;margin:0;text-decoration:none;line-height:normal;letter-spacing:normal}ol.font_100 li,ul.font_100 li{margin-bottom:12px}letter{position:relative}letter,word{display:inline-block}word{white-space:nowrap}letter.space,word.space{display:inline}ol.wix-list-text-align,ul.wix-list-text-align{list-style-position:inside}ol.wix-list-text-align h1,ol.wix-list-text-align h2,ol.wix-list-text-align h3,ol.wix-list-text-align h4,ol.wix-list-text-align h5,ol.wix-list-text-align h6,ol.wix-list-text-align p,ul.wix-list-text-align h1,ul.wix-list-text-align h2,ul.wix-list-text-align h3,ul.wix-list-text-align h4,ul.wix-list-text-align h5,ul.wix-list-text-align h6,ul.wix-list-text-align p{display:inline}.wixapps-less-spacers-align.ltr{text-align:left}.wixapps-less-spacers-align.center{text-align:center}.wixapps-less-spacers-align.rtl{text-align:right}.wixapps-less-spacers-align>a,.wixapps-less-spacers-align>div{display:inline-block!important}.flex_display{display:-webkit-box;display:-webkit-flex;display:flex}.flex_vbox{box-sizing:border-box;padding-top:.01em;padding-bottom:.01em}a.wixAppsLink img{cursor:pointer}.singleLine{white-space:nowrap;display:block;overflow:hidden;text-overflow:ellipsis;word-wrap:normal}[data-z-counter]{z-index:0}[data-z-counter="0"]{z-index:auto}.circle-preloader{-webkit-animation:semi-rotate 1s 1ms linear infinite;animation:semi-rotate 1s 1ms linear infinite;height:30px;left:50%;margin-left:-15px;margin-top:-15px;overflow:hidden;position:absolute;top:50%;-webkit-transform-origin:100% 50%;transform-origin:100% 50%;width:15px}.circle-preloader:before{content:"";top:0;left:0;right:-100%;bottom:0;border:3px solid currentColor;border-color:currentColor transparent transparent currentColor;border-radius:50%;position:absolute;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:inner-rotate .5s 1ms linear infinite alternate;animation:inner-rotate .5s 1ms linear infinite alternate;color:#7fccf7}.circle-preloader:after{content:"";top:0;left:0;right:-100%;bottom:0;border:3px solid currentColor;border-color:currentColor transparent transparent currentColor;border-radius:50%;position:absolute;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:inner-rotate .5s 1ms linear infinite alternate;animation:inner-rotate .5s 1ms linear infinite alternate;color:#3899ec;opacity:0}.circle-preloader.white:before{color:#f0f0f0}.circle-preloader.white:after{color:#dcdcdc}@-webkit-keyframes inner-rotate{to{opacity:1;-webkit-transform:rotate(115deg);transform:rotate(115deg)}}@keyframes inner-rotate{to{opacity:1;-webkit-transform:rotate(115deg);transform:rotate(115deg)}}@-webkit-keyframes semi-rotate{0%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-transform:rotate(180deg);transform:rotate(180deg)}45%{-webkit-transform:rotate(198deg);transform:rotate(198deg)}55%{-webkit-transform:rotate(234deg);transform:rotate(234deg)}to{-webkit-transform:rotate(540deg);transform:rotate(540deg)}}@keyframes semi-rotate{0%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-transform:rotate(180deg);transform:rotate(180deg)}45%{-webkit-transform:rotate(198deg);transform:rotate(198deg)}55%{-webkit-transform:rotate(234deg);transform:rotate(234deg)}to{-webkit-transform:rotate(540deg);transform:rotate(540deg)}}.hidden-comp-ghost-mode{opacity:.5}.collapsed-comp-mode:after{position:absolute;top:0;bottom:0;left:0;right:0;content:"";background:-webkit-repeating-linear-gradient(135deg,transparent,transparent 49%,#2b5672 0,#2b5672 0,transparent 51%);background:repeating-linear-gradient(-45deg,transparent,transparent 49%,#2b5672 0,#2b5672 0,transparent 51%);background-size:6px 6px;background-repeat:repeat}.g-transparent-a:link,.g-transparent-a:visited{border-color:transparent}.transitioning-comp *{transition:inherit!important;-webkit-transition:inherit!important}.selectionSharerContainer{position:absolute;background-color:#fff;box-shadow:0 4px 10px 0 rgba(57,86,113,.24);width:142px;height:45px;border-radius:100px;text-align:center}.selectionSharerContainer:after{content:"";position:absolute;bottom:-10px;left:42%;border-width:10px 10px 0;border-style:solid;border-color:#fff transparent;display:block;width:0}.selectionSharerContainer .selectionSharerOption{display:inline-block;cursor:pointer;vertical-align:top;padding:13px 11px 11px 13px;margin:1px;z-index:-1}.selectionSharerContainer .selectionSharerVerticalSeparator{margin-top:9px;margin-bottom:18px;background-color:#eaf7ff;height:26px;width:1px;display:inline-block}.visual-focus-on .focus-ring:not(.has-custom-focus):focus{box-shadow:inset 0 0 0 1px hsla(0,0%,100%,.9),0 0 1px 2px #3899ec!important}</style><style id="frame-listener.stylable.bundle.css"></style><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Anton:n,b,i,bi|Basic:n,b,i,bi|Caudex:n,b,i,bi|Chelsea+Market:n,b,i,bi|Corben:n,b,i,bi|EB+Garamond:n,b,i,bi|Enriqueta:n,b,i,bi|Forum:n,b,i,bi|Fredericka+the+Great:n,b,i,bi|Jockey+One:n,b,i,bi|Josefin+Slab:n,b,i,bi|Jura:n,b,i,bi|Kelly+Slab:n,b,i,bi|Marck+Script:n,b,i,bi|Lobster:n,b,i,bi|Mr+De+Haviland:n,b,i,bi|Niconne:n,b,i,bi|Noticia+Text:n,b,i,bi|Overlock:n,b,i,bi|Patrick+Hand:n,b,i,bi|Play:n,b,i,bi|Sarina:n,b,i,bi|Signika:n,b,i,bi|Spinnaker:n,b,i,bi|Monoton:n,b,i,bi|Sacramento:n,b,i,bi|Cookie:n,b,i,bi|Raleway:n,b,i,bi|Open+Sans+Condensed:300:n,b,i,bi|Amatic+SC:n,b,i,bi|Cinzel:n,b,i,bi|Sail:n,b,i,bi|Playfair+Display:n,b,i,bi|Libre+Baskerville:n,b,i,bi|&amp;subset=latin-ext,cyrillic,japanese,korean,arabic,hebrew,latin" id="font_googleFonts"><link rel="stylesheet" href="https://static.parastorage.com/services/santa-resources/resources/viewer/user-site-fonts/v3/languages.css" id="font_langauges"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="container" src="https://static.parastorage.com/services/santa/1.2537.15/packages-bin/container/container.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="stripColumnsContainer" src="https://static.parastorage.com/services/santa/1.2648.6/packages-bin/stripColumnsContainer/stripColumnsContainer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mediaContainer" src="https://static.parastorage.com/services/santa/1.2615.11/packages-bin/mediaContainer/mediaContainer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mousetrap" src="https://static.parastorage.com/services/third-party/mousetrap/1.4.6/mousetrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tpaGalleries" src="https://static.parastorage.com/services/santa/1.2648.6/packages-bin/tpaGalleries/tpaGalleries.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="imageButton" src="https://static.parastorage.com/services/santa/1.2555.21/packages-bin/imageButton/imageButton.min.js"></script><meta property="og:title" content="welcome"><meta property="og:url" content="https://www.yangxue.me"><meta name="robots" content="index"></head>
-<body class="" style="">
-<div id="SITE_CONTAINER" data-santa-render-status="CLIENT"><div data-reactroot="" class="noop" data-santa-version="1.2658.25"><div><style type="text/css" data-styleid="theme_fonts">.font_0 {font: normal normal bold 24px/1.4em 'open sans',sans-serif ;color:#606060;}
-.font_1 {font: normal normal bold 13px/1.4em 'open sans',sans-serif ;color:#FFFFFF;}
-.font_2 {font: normal normal normal 20px/1.4em 'open sans',sans-serif ;color:#606060;}
-.font_3 {font: normal normal normal 60px/1.4em 'Open Sans',sans-serif ;color:#606060;}
-.font_4 {font: normal normal normal 35px/1.4em 'Open Sans',sans-serif ;color:#606060;}
-.font_5 {font: normal normal normal 24px/1.4em 'open sans',sans-serif ;color:#606060;}
-.font_6 {font: normal normal normal 19px/1.4em 'open sans',sans-serif ;color:#606060;}
-.font_7 {font: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#606060;}
-.font_8 {font: normal normal normal 14px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#606060;}
-.font_9 {font: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#606060;}
-.font_10 {font: normal normal normal 10px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif ;color:#606060;}
-</style><style type="text/css" data-styleid="theme_colors">.color_0 {color: #FFFFFF;}
-.backcolor_0 {background-color: #FFFFFF;}
-.color_1 {color: #FFFFFF;}
-.backcolor_1 {background-color: #FFFFFF;}
-.color_2 {color: #000000;}
-.backcolor_2 {background-color: #000000;}
-.color_3 {color: #ED1C24;}
-.backcolor_3 {background-color: #ED1C24;}
-.color_4 {color: #0088CB;}
-.backcolor_4 {background-color: #0088CB;}
-.color_5 {color: #FFCB05;}
-.backcolor_5 {background-color: #FFCB05;}
-.color_6 {color: #727272;}
-.backcolor_6 {background-color: #727272;}
-.color_7 {color: #B0B0B0;}
-.backcolor_7 {background-color: #B0B0B0;}
-.color_8 {color: #FFFFFF;}
-.backcolor_8 {background-color: #FFFFFF;}
-.color_9 {color: #727272;}
-.backcolor_9 {background-color: #727272;}
-.color_10 {color: #B0B0B0;}
-.backcolor_10 {background-color: #B0B0B0;}
-.color_11 {color: #FFFFFF;}
-.backcolor_11 {background-color: #FFFFFF;}
-.color_12 {color: #F2F2F2;}
-.backcolor_12 {background-color: #F2F2F2;}
-.color_13 {color: #CFCFCF;}
-.backcolor_13 {background-color: #CFCFCF;}
-.color_14 {color: #A8A8A8;}
-.backcolor_14 {background-color: #A8A8A8;}
-.color_15 {color: #606060;}
-.backcolor_15 {background-color: #606060;}
-.color_16 {color: #A4E6F7;}
-.backcolor_16 {background-color: #A4E6F7;}
-.color_17 {color: #77D7EF;}
-.backcolor_17 {background-color: #77D7EF;}
-.color_18 {color: #00B9E8;}
-.backcolor_18 {background-color: #00B9E8;}
-.color_19 {color: #007B9A;}
-.backcolor_19 {background-color: #007B9A;}
-.color_20 {color: #003D4D;}
-.backcolor_20 {background-color: #003D4D;}
-.color_21 {color: #F0ADA0;}
-.backcolor_21 {background-color: #F0ADA0;}
-.color_22 {color: #E28371;}
-.backcolor_22 {background-color: #E28371;}
-.color_23 {color: #D32300;}
-.backcolor_23 {background-color: #D32300;}
-.color_24 {color: #8D1700;}
-.backcolor_24 {background-color: #8D1700;}
-.color_25 {color: #460B00;}
-.backcolor_25 {background-color: #460B00;}
-.color_26 {color: #D3E9AA;}
-.backcolor_26 {background-color: #D3E9AA;}
-.color_27 {color: #B6D47E;}
-.backcolor_27 {background-color: #B6D47E;}
-.color_28 {color: #89BF24;}
-.backcolor_28 {background-color: #89BF24;}
-.color_29 {color: #5B7F18;}
-.backcolor_29 {background-color: #5B7F18;}
-.color_30 {color: #2D3F0C;}
-.backcolor_30 {background-color: #2D3F0C;}
-.color_31 {color: #FFEFAA;}
-.backcolor_31 {background-color: #FFEFAA;}
-.color_32 {color: #FFE77F;}
-.backcolor_32 {background-color: #FFE77F;}
-.color_33 {color: #FFD000;}
-.backcolor_33 {background-color: #FFD000;}
-.color_34 {color: #A98A00;}
-.backcolor_34 {background-color: #A98A00;}
-.color_35 {color: #544500;}
-.backcolor_35 {background-color: #544500;}
-</style><style type="text/css" data-styleid="hc1">.hc1screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
-.hc1[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
-.hc1[data-state~="fixedPosition"].hc1_footer {top:auto;bottom:0;}
-.hc1bg {position:absolute;top:0;right:0;bottom:0;left:0;}
-.hc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
-.hc1centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="fc1">.fc1screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
-.fc1[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
-.fc1[data-state~="fixedPosition"].fc1_footer {top:auto;bottom:0;}
-.fc1bg {position:absolute;top:0;right:0;bottom:0;left:0;}
-.fc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
-.fc1centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="txtNew">.txtNew {word-wrap:break-word;}
-.txtNew_override-left * {text-align:left !important;}
-.txtNew_override-right * {text-align:right !important;}
-.txtNew_override-center * {text-align:center !important;}
-.txtNew_override-justify * {text-align:justify !important;}
-.txtNew li {font-style:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal;}
-.txtNew ol,.txtNew ul {padding-left:1.3em;padding-right:0;margin-left:0.5em;margin-right:0;line-height:normal;letter-spacing:normal;}
-.txtNew ul {list-style-type:disc;}
-.txtNew ol {list-style-type:decimal;}
-.txtNew ul ul,.txtNew ol ul {list-style-type:circle;}
-.txtNew ul ul ul,.txtNew ol ul ul {list-style-type:square;}
-.txtNew ul ol ul,.txtNew ol ol ul {list-style-type:square;}
-.txtNew ul[dir="rtl"],.txtNew ol[dir="rtl"] {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
-.txtNew ul[dir="rtl"] ul,.txtNew ul[dir="rtl"] ol,.txtNew ol[dir="rtl"] ul,.txtNew ol[dir="rtl"] ol {padding-left:0;padding-right:1.3em;margin-left:0;margin-right:0.5em;}
-.txtNew p {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h1 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h2 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h3 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h4 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h5 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew h6 {margin:0;line-height:normal;letter-spacing:normal;}
-.txtNew a {color:inherit;}</style><style type="text/css" data-styleid="pc1">.pc1screenWidthBackground {position:absolute;top:0;right:0;bottom:0;left:0;}
-.pc1[data-state~="fixedPosition"] {position:fixed !important;left:auto !important;z-index:50;}
-.pc1[data-state~="fixedPosition"].pc1_footer {top:auto;bottom:0;}
-.pc1bg {position:absolute;top:0;right:0;bottom:0;left:0;}
-.pc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}
-.pc1centeredContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="s_VOwPageGroupSkin">.s_VOwPageGroupSkin {height:100px;width:100px;}
-.s_VOwPageGroupSkinoverlay {position:absolute;top:0;right:0;bottom:0;left:0;background-color:rgba(0, 0, 0, 0.664);}
-.s_VOwPageGroupSkininlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="style-j0d0hgsb">.style-j0d0hgsbitemsContainer {width:calc(100% - 0px);height:calc(100% - 0px);white-space:nowrap;display:inline-block;overflow:visible;position:relative;}
-.style-j0d0hgsbmoreContainer {overflow:visible;display:inherit;white-space:nowrap;width:auto;background-color:rgba(255, 255, 255, 1);border-radius:0;  }
-.style-j0d0hgsbdropWrapper {z-index:99999;display:block;opacity:1;visibility:hidden;position:absolute;margin-top:7px;}
-.style-j0d0hgsbdropWrapper[data-dropMode="dropUp"] {margin-top:0;margin-bottom:7px;}
-.style-j0d0hgsbrepeaterButton {height:100%;position:relative;box-sizing:border-box;display:inline-block;cursor:pointer;font:normal normal normal 16px/1.4em helvetica-w01-light,helvetica-w02-light,sans-serif;}
-.style-j0d0hgsbrepeaterButton[data-state~="header"] a,.style-j0d0hgsbrepeaterButton[data-state~="header"] div {cursor:default !important;}
-.style-j0d0hgsbrepeaterButtonlinkElement {display:inline-block;height:100%;width:100%;}
-.style-j0d0hgsbrepeaterButton_gapper {padding:0 0px;}
-.style-j0d0hgsbrepeaterButtonlabel {display:inline-block;padding:0 10px;color:#01B1AF;transition: color 0.4s ease 0s;}
-.style-j0d0hgsbrepeaterButton[data-state~="drop"] {width:100%;display:block;}
-.style-j0d0hgsbrepeaterButton[data-state~="drop"] .style-j0d0hgsbrepeaterButtonlabel {padding:0 .5em;}
-.style-j0d0hgsbrepeaterButton[data-state~="over"] .style-j0d0hgsbrepeaterButtonlabel {color:#045184;transition: color 0.4s ease 0s;}
-.style-j0d0hgsbrepeaterButton[data-state~="selected"] .style-j0d0hgsbrepeaterButtonlabel {color:#045184;transition: color 0.4s ease 0s;}</style><style type="text/css" data-styleid="style-j0d0gzys">.style-j0d0gzys[data-state~="shouldUseFlex"] .style-j0d0gzyslink,.style-j0d0gzys[data-state~="shouldUseFlex"] .style-j0d0gzyslabelwrapper {text-align:initial;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;}
-.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="center"] .style-j0d0gzyslink,.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="center"] .style-j0d0gzyslabelwrapper {-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
-.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="left"] .style-j0d0gzyslink,.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="left"] .style-j0d0gzyslabelwrapper {-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;}
-.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="right"] .style-j0d0gzyslink,.style-j0d0gzys[data-state~="shouldUseFlex"][data-state~="right"] .style-j0d0gzyslabelwrapper {-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;}
-.style-j0d0gzys[data-disabled="false"] {cursor:pointer;}
-.style-j0d0gzys[data-disabled="false"]:active[data-state~="mobile"] .style-j0d0gzyslabel,.style-j0d0gzys[data-disabled="false"]:hover[data-state~="desktop"] .style-j0d0gzyslabel,.style-j0d0gzys[data-disabled="false"][data-preview~="hover"] .style-j0d0gzyslabel {color:#024E50;transition: color 0.4s ease 0s;}
-.style-j0d0gzyslink {position:absolute;top:0;right:0;bottom:0;left:0;}
-.style-j0d0gzyslabel {font:normal normal bold 27px/1.4em americantypwrteritcw01--731025,americantypwrteritcw02--737091,serif;  transition: color 0.4s ease 0s;  color:#01B1AF;white-space:nowrap;display:inline-block;}
-.style-j0d0gzys[data-disabled="true"] .style-j0d0gzyslabel,.style-j0d0gzys[data-preview~="disabled"] .style-j0d0gzyslabel {color:#FFFFFF;}</style><style type="text/css" data-styleid="p2">.p2bg {position:absolute;top:0;right:0;bottom:0;left:0;}
-.p2[data-state~="mobileView"] .p2bg {left:10px;right:10px;}
-.p2inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="strc1">.strc1inlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="s_BIwzIGroupSkin">.s_BIwzIGroupSkin {pointer-events:none;}
-.s_BIwzIGroupSkin_ie10 {max-width:0;max-height:0;}
-.s_BIwzIGroupSkininlineContent {pointer-events:all;}</style><style type="text/css" data-styleid="b2">.b2[data-state~="shouldUseFlex"] .b2link,.b2[data-state~="shouldUseFlex"] .b2labelwrapper {text-align:initial;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-align:center;-webkit-align-items:center;align-items:center;}
-.b2[data-state~="shouldUseFlex"][data-state~="center"] .b2link,.b2[data-state~="shouldUseFlex"][data-state~="center"] .b2labelwrapper {-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center;}
-.b2[data-state~="shouldUseFlex"][data-state~="left"] .b2link,.b2[data-state~="shouldUseFlex"][data-state~="left"] .b2labelwrapper {-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;}
-.b2[data-state~="shouldUseFlex"][data-state~="right"] .b2link,.b2[data-state~="shouldUseFlex"][data-state~="right"] .b2labelwrapper {-webkit-box-pack:end;-webkit-justify-content:flex-end;justify-content:flex-end;}
-.b2[data-disabled="false"] {cursor:pointer;}
-.b2[data-disabled="false"]:active[data-state~="mobile"] .b2label,.b2[data-disabled="false"]:hover[data-state~="desktop"] .b2label,.b2[data-disabled="false"][data-preview~="hover"] .b2label {color:#727272;transition: color 0.4s ease 0s;}
-.b2link {position:absolute;top:0;right:0;bottom:0;left:0;}
-.b2label {font:italic normal normal 18px/1.4em georgia,palatino,'book antiqua','palatino linotype',serif;  transition: color 0.4s ease 0s;  color:#606060;white-space:nowrap;display:inline-block;}
-.b2[data-disabled="true"] .b2label,.b2[data-preview~="disabled"] .b2label {color:#FFFFFF;}</style><style type="text/css" data-styleid="ImageButton_1">.ImageButton_1link {position:relative;display:block;z-index:0;overflow:visible;-ms-touch-action:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;}
-.ImageButton_1link:after {content:"";position:absolute;z-index:5;width:100%;height:100%;display:block;}
-.ImageButton_1defaultImage {position:absolute;opacity:1;}
-.ImageButton_1hoverImage {position:absolute;opacity:0;}
-.ImageButton_1activeImage {position:absolute;opacity:0;}
-.ImageButton_1_correct-positioning {position:absolute;}
-.ImageButton_1[data-state~="hovered"] .ImageButton_1defaultImage {opacity:0;}
-.ImageButton_1[data-state~="hovered"] .ImageButton_1hoverImage {opacity:1;}
-.ImageButton_1[data-state~="hovered"] .ImageButton_1activeImage {opacity:0;}
-.ImageButton_1[data-state~="pressed"] .ImageButton_1defaultImage {opacity:0;}
-.ImageButton_1[data-state~="pressed"] .ImageButton_1hoverImage {opacity:0;}
-.ImageButton_1[data-state~="pressed"] .ImageButton_1activeImage {opacity:1;}
-.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_adh"] .ImageButton_1defaultImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_ahd"] .ImageButton_1hoverImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dah"] .ImageButton_1activeImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dha"] .ImageButton_1hoverImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_had"] .ImageButton_1activeImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_hda"] .ImageButton_1defaultImage {z-index:1;transition: opacity 0.1s ease 0s;}
-.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_adh"] .ImageButton_1activeImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_ahd"] .ImageButton_1activeImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dah"] .ImageButton_1defaultImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dha"] .ImageButton_1defaultImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_had"] .ImageButton_1hoverImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_hda"] .ImageButton_1hoverImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_adh"] .ImageButton_1hoverImage {z-index:3;transition: opacity 0.5s ease 0s;}
-.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_ahd"] .ImageButton_1defaultImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dah"] .ImageButton_1hoverImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_dha"] .ImageButton_1activeImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_had"] .ImageButton_1defaultImage,.ImageButton_1[data-state~="transition_fade"][data-state~="prepare_hda"] .ImageButton_1activeImage {z-index:2;transition: opacity 0.5s ease 0s;}
-.ImageButton_1defaultImage {overflow:hidden;}
-.ImageButton_1defaultImageimage {position:static;box-shadow:#000 0 0 0;}
-.ImageButton_1hoverImage {overflow:hidden;}
-.ImageButton_1hoverImageimage {position:static;box-shadow:#000 0 0 0;}
-.ImageButton_1activeImage {overflow:hidden;}
-.ImageButton_1activeImageimage {position:static;box-shadow:#000 0 0 0;}</style><style type="text/css" data-styleid="wp2">.wp2_zoomedin {cursor:url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_out.png), url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_out.cur), auto;overflow:hidden;display:block;}
-.wp2_zoomedout {cursor:url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_in.png), url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_in.cur), auto;}
-.wp2link {display:block;overflow:hidden;}
-.wp2img {overflow:hidden;}
-.wp2imgimage {position:static;box-shadow:#000 0 0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}</style><style type="text/css" data-styleid="style-irzjy94r">.style-irzjy94rbg {position:absolute;top:0;right:0;bottom:0;left:0;}
-.style-irzjy94r[data-state~="mobileView"] .style-irzjy94rbg {left:10px;right:10px;}
-.style-irzjy94rinlineContent {position:absolute;top:0;right:0;bottom:0;left:0;}</style><style type="text/css" data-styleid="style-ixjpzhxg">.style-ixjpzhxg_zoomedin {cursor:url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_out.png), url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_out.cur), auto;overflow:hidden;display:block;}
-.style-ixjpzhxg_zoomedout {cursor:url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_in.png), url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/cursor_zoom_in.cur), auto;}
-.style-ixjpzhxglink {display:block;  border-radius:50%;border:0px solid rgba(255, 255, 255, 1);background-color:rgba(255, 255, 255, 1);overflow:hidden;}
-.style-ixjpzhxgimg {border-radius:50%;overflow:hidden;}
-.style-ixjpzhxgimgimage {position:static;box-shadow:#000 0 0 0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}</style><style type="text/css" data-styleid="Anchor_1">.Anchor_1 {visibility:hidden;pointer-events:none;width:0 !important;}</style><style type="text/css" data-styleid="deadComp">.deadComp {background:transparent;}</style><style type="text/css" data-styleid="siteBackground">.siteBackground {width:100%;position:absolute;}
-.siteBackgroundbgBeforeTransition {position:absolute;top:0;}
-.siteBackgroundbgAfterTransition {position:absolute;top:0;}</style><style type="text/css" data-styleid="loginDialog">.loginDialog {position:fixed;width:100%;height:100%;z-index:99;font-family:Arial, sans-serif;font-size:1em;color:#9C9C9C;}
-.loginDialogblockingLayer {background-color:rgba(85, 85, 85, 0.75);position:fixed;top:0;right:0;bottom:0;left:0;visibility:visible;zoom:1;overflow:auto;}
-.loginDialogdialog {background-color:rgba(170, 170, 170, 0.7);width:455px;position:fixed;padding:20px;}
-.loginDialog_wrapper {background-color:rgba(255, 255, 255, 1);padding:45px 40px 0 40px;}
-.loginDialogxButton {position:absolute;top:-14px;right:-14px;cursor:pointer;background:transparent url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/viewer_login_sprite.png) no-repeat right top;height:30px;width:30px;}
-.loginDialogxButton:hover {background-position:right -80px;}
-.loginDialogheader {padding-bottom:25px;line-height:30px;}
-.loginDialogfavIcon {float:left;margin:7px 7px 0 0;width:16px;height:16px;}
-.loginDialogtitle {font-size:20px;font-weight:bold;color:#555555;}
-.loginDialog[data-state~="mobile"] {position:absolute;width:100%;height:100%;z-index:99;font-family:Arial, sans-serif;font-size:1em;color:#9C9C9C;top:0;}
-.loginDialog[data-state~="mobile"] .loginDialogheader {padding-bottom:10px;line-height:30px;}
-.loginDialog[data-state~="mobile"] .loginDialogfavIcon {display:none;}
-.loginDialog[data-state~="mobile"] .loginDialogtitle {font-size:14px;}
-.loginDialog[data-state~="mobile"] .loginDialogdialog {width:260px;padding:10px;position:absolute;}
-.loginDialog[data-state~="mobile"] .loginDialog_footer {margin-top:0;padding-bottom:10px;}
-.loginDialog[data-state~="mobile"] .loginDialogcancel {font-size:14px;line-height:30px;}
-.loginDialog[data-state~="mobile"] .loginDialog_wrapper {padding:14px 12px 0 12px;}
-.loginDialog[data-state~="mobile"] .loginDialogsubmitButton {height:30px;width:100px;font-size:14px;}
-.loginDialog_forgot {text-align:left;font-size:12px;}
-.loginDialog_forgot a {color:#0198ff;border-bottom:1px solid #0198ff;}
-.loginDialog_forgot a:hover {color:#0044ff;border-bottom:1px solid #0044ff;}
-.loginDialog_error {font-size:12px;color:#d74401;text-align:right;}
-.loginDialog_footer {width:100%;margin-top:27px;padding-bottom:40px;}
-.loginDialogcancel {color:#9C9C9C;font-size:18px;text-decoration:underline;line-height:36px;}
-.loginDialogcancel:hover {color:#9c3c3c;}
-.loginDialogpasswordInput label {font-size:14px;}
-.loginDialogpasswordInput label[data-type="password"] {font-size:14px;line-height:30px;height:30px;}
-.loginDialogsubmitButton {float:right;cursor:pointer;border:solid 2px #0064a8;height:36px;width:143px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -252px;color:#ffffff;font-size:24px;font-weight:bold;box-shadow:0 1px 3px rgba(0, 0, 0, 0.5);}
-.loginDialogsubmitButton:hover {background-position:right -352px;border-color:#004286;}
-.loginDialog[data-state="normal"] .loginDialogerror {display:none;}
-.loginDialog[data-state="error"] .loginDialogerror {display:block;font-size:12px;color:#d74401;text-align:right;}
-.loginDialog[data-state="error"] .loginDialogpasswordInput {border-color:#d74401;}
-.loginDialogpasswordInput {font-size:1em;}
-.loginDialogpasswordInput label {float:none;font-size:17px;line-height:25px;color:#585858;}
-.loginDialogpasswordInput[data-state~="mobile"] label {float:none;font-size:14px;line-height:20px;color:#585858;}
-.loginDialogpasswordInputinput {padding:0 15px;width:100%;height:42px;font-size:19px;line-height:42px;color:#0198ff;margin:0 -3px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;border:solid 1px #a1a1a1;box-sizing:border-box;}
-.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput {padding:0 15px;width:100%;height:30px;font-size:14px;line-height:30px;color:#0198ff;margin:0 -3px;background:transparent url(https://static.parastorage.com/services/skins/2.1229.79/images/wysiwyg/core/themes/base/viewer_login_sprite.png) repeat-x right -170px;border:solid 1px #a1a1a1;box-sizing:border-box;}
-.loginDialogpasswordInputinput[data-type="password"] {font-size:38px;}
-.loginDialogpasswordInput[data-state~="mobile"] .loginDialogpasswordInputinput[data-type="password"] {font-size:14px;}
-.loginDialogpasswordInputerrorMessage {display:block;font-size:12px;color:#d74401;text-align:right;height:15px;}
-.loginDialogpasswordInput:not([data-state~="invalid"]) .loginDialogpasswordInputerrorMessage {visibility:hidden;}
-.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputerrorMessage {visibility:visible;}
-.loginDialogpasswordInput[data-state~="invalid"] input {border-color:#d74401;}
-.loginDialogpasswordInput[data-state~="invalid"] .loginDialogpasswordInputinput {border-color:#ff0000;}</style><style type="text/css">.testStyles {position:absolute; display: none; z-index: 12}</style><div class="testStyles"></div><style type="text/css" data-styleid="uploadedFonts"></style><div style="overflow: hidden; visibility: hidden; max-height: 0px; max-width: 0px; position: absolute;"><style>.font-ruler-content::after {content:"@#$%%^&*~IAO"}</style></div></div><div id="SITE_BACKGROUND" class="siteBackground" style="position: absolute; top: 0px; height: 1463px; width: 980px;"><div id="SITE_BACKGROUND_previous_noPrev" class="siteBackgroundprevious" style="width: 100%; height: 100%;"><div id="SITE_BACKGROUNDpreviousImage" class="siteBackgroundpreviousImage"></div><div id="SITE_BACKGROUNDpreviousVideo" class="siteBackgroundpreviousVideo"></div><div id="SITE_BACKGROUND_previousOverlay_noPrev" class="siteBackgroundpreviousOverlay"></div></div><div id="SITE_BACKGROUND_current_c1rez_j0n3die3_bg" data-position="absolute" class="siteBackgroundcurrent" style="top: 0px; background-color: rgb(255, 255, 255); position: absolute; width: 100%; height: 100%;"><div id="SITE_BACKGROUND_currentImage_c1rez_j0n3die3_bg" data-type="bgimage" data-height="100%" class="siteBackgroundcurrentImage" style="position: absolute; top: 0px; height: 100%; width: 100%;" data-image-css="{&quot;backgroundSize&quot;:&quot;&quot;,&quot;backgroundPosition&quot;:&quot;&quot;,&quot;backgroundRepeat&quot;:&quot;&quot;}"></div><div id="SITE_BACKGROUNDcurrentVideo" class="siteBackgroundcurrentVideo"></div><div id="SITE_BACKGROUND_currentOverlay_c1rez_j0n3die3_bg" class="siteBackgroundcurrentOverlay" style="position: absolute; top: 0px; width: 100%; height: 100%;"></div></div></div><div class="SITE_ROOT" id="SITE_ROOT" style="width: 980px; padding-bottom: 0px;"><div id="masterPage" style="width: 980px; position: static; top: 0px; height: 1463px;"><header class="hc1" data-state="" id="SITE_HEADER" style="width: 980px; top: 0px; height: 444px; left: 0px; position: absolute;"><div id="SITE_HEADERscreenWidthBackground" class="hc1screenWidthBackground" style="width: 980px; left: 0px;"></div><div id="SITE_HEADERcenteredContent" class="hc1centeredContent"><div id="SITE_HEADERbg" class="hc1bg"></div><div id="SITE_HEADERinlineContent" class="hc1inlineContent"></div></div></header><footer class="fc1_footer fc1" data-state=" " id="SITE_FOOTER" style="width: 980px; position: absolute; left: 0px; height: 63px; bottom: auto; top: 1400px;"><div id="SITE_FOOTERscreenWidthBackground" class="fc1screenWidthBackground" style="width: 980px; left: 0px;"></div><div id="SITE_FOOTERcenteredContent" class="fc1centeredContent"><div id="SITE_FOOTERbg" class="fc1bg"></div><div id="SITE_FOOTERinlineContent" class="fc1inlineContent"><div class="txtNew" id="WRchTxt0-16wb" style="left: 292px; width: 411px; position: absolute; top: 24px;"><p class="font_9" style="text-align:center;"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;">2017&nbsp;Designed by Xue Yang . &nbsp;All Right Reserved.</span></p></div></div></div></footer><div class="pc1" data-state="" id="PAGES_CONTAINER" style="width: 980px; position: absolute; top: 444px; height: 956px; left: 0px;"><div id="PAGES_CONTAINERscreenWidthBackground" class="pc1screenWidthBackground" style="width: 980px; left: 0px;"></div><div id="PAGES_CONTAINERcenteredContent" class="pc1centeredContent"><div id="PAGES_CONTAINERbg" class="pc1bg"></div><div id="PAGES_CONTAINERinlineContent" class="pc1inlineContent"><div class="s_VOwPageGroupSkin" id="SITE_PAGES" style="left: 0px; width: 980px; position: absolute; top: 0px; height: 956px;"><div class="style-irzjy94r" id="c1rez" style="left: 0px; width: 980px; position: absolute; top: 0px; height: 956px;"><div id="c1rezbg" class="style-irzjy94rbg"></div><div id="c1rezinlineContent" class="style-irzjy94rinlineContent"><div class="txtNew" id="comp-itlw7xft" style="left: 413px; width: 156px; position: absolute; top: -515px;"><h1 class="font_0" style="font-size:30px; text-align:center;"><span style="font-size:30px;"><span class="color_13"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;"><span style="font-weight:normal;"><a href="https://www.yangxue.me" target="_self">XUE YANG</a></span></span></span></span></h1>
-</div><div data-exact-height="64" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-itlway0b" style="left: 339px; position: absolute; top: -526px; width: 64px; height: 64px;"><div id="comp-itlway0blink" class="wp2link" style="width: 64px; height: 64px;"><div data-style="" class="wp2img" id="comp-itlway0bimg" style="position: relative; width: 64px; height: 64px;"><div class="wp2imgpreloader" id="comp-itlway0bimgpreloader"></div><img id="comp-itlway0bimgimage" alt="" data-type="image" style="width: 64px; height: 64px; object-fit: cover;"></div></div></div><div class="s_BIwzIGroupSkin" id="comp-iynplhet" style="position: absolute; width: 966px; height: 142px; top: 110px; left: 14px;"><div id="comp-iynplhetinlineContent" class="s_BIwzIGroupSkininlineContent"><div data-exact-height="32" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7m0" style="position: absolute; left: 935px; top: 110px; width: 31px; height: 32px;"><div id="comp-iynnq7m0link" class="wp2link" style="width: 31px; height: 32px;"><div data-style="" class="wp2img" id="comp-iynnq7m0img" style="position: relative; width: 31px; height: 32px;"><div class="wp2imgpreloader" id="comp-iynnq7m0imgpreloader"></div><img id="comp-iynnq7m0imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_a269627cf8ac450281c74fd0a978d4f2~mv2.png/v1/fill/w_62,h_64,al_c,usm_0.66_1.00_0.01/7d68b9_a269627cf8ac450281c74fd0a978d4f2~mv2.png" style="width: 31px; height: 32px; object-fit: cover;"></div></div></div><div data-exact-height="40" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnkieg" style="position: absolute; left: 49px; top: 5px; width: 40px; height: 40px;"><div id="comp-iynnkieglink" class="wp2link" style="width: 40px; height: 40px;"><div data-style="" class="wp2img" id="comp-iynnkiegimg" style="position: relative; width: 40px; height: 40px;"><div class="wp2imgpreloader" id="comp-iynnkiegimgpreloader"></div><img id="comp-iynnkiegimgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_9104873024cc4953bc62c112d7106101~mv2.png/v1/fill/w_80,h_80,al_c,usm_0.66_1.00_0.01/7d68b9_9104873024cc4953bc62c112d7106101~mv2.png" style="width: 40px; height: 40px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnm2bu" style="width: 137px; position: absolute; left: 0px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="font-weight:bold;"><span style="color:#FFFFFF;"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;">EXPLORE</span></span></span></p>
-
-    <p class="font_7" style="text-align:center;"><span style="font-weight:bold;"><span style="color:#FFFFFF;"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;">Define the problem</span></span></span></p>
-</div><div data-exact-height="50" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7m11" style="position: absolute; left: 204px; top: 0px; width: 50px; height: 50px;"><div id="comp-iynnq7m11link" class="wp2link" style="width: 50px; height: 50px;"><div data-style="" class="wp2img" id="comp-iynnq7m11img" style="position: relative; width: 50px; height: 50px;"><div class="wp2imgpreloader" id="comp-iynnq7m11imgpreloader"></div><img id="comp-iynnq7m11imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_1e48e92e5a6e46c3a08a2c81c48871c6~mv2.png/v1/fill/w_100,h_100,al_c,usm_0.66_1.00_0.01/7d68b9_1e48e92e5a6e46c3a08a2c81c48871c6~mv2.png" style="width: 50px; height: 50px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnsg5r" style="width: 115px; position: absolute; left: 171px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="font-weight:bold;"><span style="color:#FFFFFF;"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;">IDEATE</span></span></span></p>
-
-    <p class="font_7"><span style="font-weight:bold;"><span style="color:#FFFFFF;"><span style="font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;">Ideate Solutions</span></span></span></p>
-</div><div data-exact-height="50" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7m02" style="position: absolute; left: 378px; top: 0px; width: 50px; height: 50px;"><div id="comp-iynnq7m02link" class="wp2link" style="width: 50px; height: 50px;"><div data-style="" class="wp2img" id="comp-iynnq7m02img" style="position: relative; width: 50px; height: 50px;"><div class="wp2imgpreloader" id="comp-iynnq7m02imgpreloader"></div><img id="comp-iynnq7m02imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_3288283304c942d18f89b032d5ff9fa8~mv2.png/v1/fill/w_100,h_100,al_c,usm_0.66_1.00_0.01/7d68b9_3288283304c942d18f89b032d5ff9fa8~mv2.png" style="width: 50px; height: 50px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnu1qm" style="width: 144px; position: absolute; left: 331px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">SOLUTION</span></p>
-
-    <p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">Select One Solution</span></p>
-</div><div data-exact-height="50" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7m1" style="position: absolute; left: 528px; top: 0px; width: 50px; height: 50px;"><div id="comp-iynnq7m1link" class="wp2link" style="width: 50px; height: 50px;"><div data-style="" class="wp2img" id="comp-iynnq7m1img" style="position: relative; width: 50px; height: 50px;"><div class="wp2imgpreloader" id="comp-iynnq7m1imgpreloader"></div><img id="comp-iynnq7m1imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_0cf3f87e558b44b2909689c61da3f251~mv2.png/v1/fill/w_100,h_100,al_c,usm_0.66_1.00_0.01/7d68b9_0cf3f87e558b44b2909689c61da3f251~mv2.png" style="width: 50px; height: 50px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnv2cx" style="width: 62px; position: absolute; left: 528px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">BUILD</span></p>
-
-    <p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">Produce</span></p>
-</div><div data-exact-height="50" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7ly" style="position: absolute; left: 662px; top: 0px; width: 50px; height: 50px;"><div id="comp-iynnq7lylink" class="wp2link" style="width: 50px; height: 50px;"><div data-style="" class="wp2img" id="comp-iynnq7lyimg" style="position: relative; width: 50px; height: 50px;"><div class="wp2imgpreloader" id="comp-iynnq7lyimgpreloader"></div><img id="comp-iynnq7lyimgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_d3980cad496b4209b69669080fce64d7~mv2.png/v1/fill/w_100,h_100,al_c,usm_0.66_1.00_0.01/7d68b9_d3980cad496b4209b69669080fce64d7~mv2.png" style="width: 50px; height: 50px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnvqh4" style="width: 74px; position: absolute; left: 652px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">TEST</span></p>
-
-    <p class="font_7"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">User Test</span></p>
-</div><div data-exact-height="50" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="wp2" id="comp-iynnq7m01" style="position: absolute; left: 834px; top: 0px; width: 50px; height: 50px;"><div id="comp-iynnq7m01link" class="wp2link" style="width: 50px; height: 50px;"><div data-style="" class="wp2img" id="comp-iynnq7m01img" style="position: relative; width: 50px; height: 50px;"><div class="wp2imgpreloader" id="comp-iynnq7m01imgpreloader"></div><img id="comp-iynnq7m01imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_2bff6d34478c443489a2dd3c28f38696~mv2.png/v1/fill/w_100,h_100,al_c,usm_0.66_1.00_0.01/7d68b9_2bff6d34478c443489a2dd3c28f38696~mv2.png" style="width: 50px; height: 50px; object-fit: cover;"></div></div></div><div class="txtNew" id="comp-iynnw82r" style="width: 125px; position: absolute; left: 796px; top: 57px;"><p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">PRESENTATION</span></p>
-
-    <p class="font_7" style="text-align:center;"><span style="color:rgb(255, 255, 255); font-family:helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif; font-weight:bold;">Present Solution</span></p>
-</div></div></div><section class="strc1" id="comp-j0czua6p" style="width: 980px; position: absolute; top: -344px; height: 650px; left: 0px;"><div data-enable-video="true" class="strc1balata" id="comp-j0czua6pbalata" style="position: absolute; top: 0px; width: calc(980px); height: 100%; pointer-events: auto; bottom: 0px; left: calc(0px); right: calc(980px); overflow: hidden; clip: rect(0px 980px 650px 0px);"><div class="bgColor" id="comp-j0czua6pbalatabgcolor" style="position: absolute; width: 100%; height: 100%;"><div id="comp-j0czua6pbalatabgcoloroverlay" class="bgColoroverlay" style="width: 100%; height: 100%; position: absolute; background-color: transparent;"></div></div></div><div id="comp-j0czua6pinlineContent" class="strc1inlineContent"><div class="strc1" id="comp-j0czuaqa" style="position: absolute; left: calc(0px); width: 980px; top: 0px; height: 650px;"><div data-enable-video="true" class="strc1balata" id="comp-j0czuaqabalata" style="position: absolute; top: 0px; width: calc(980px); height: 100%; pointer-events: none; left: calc(0px); bottom: 0px; overflow: hidden; clip: rect(0px 980px 650px 0px);"><div class="bgColor" id="comp-j0czuaqabalatabgcolor" style="position: fixed; width: 100%; height: 100%; top: 0px;"><div id="comp-j0czuaqabalatabgcoloroverlay" class="bgColoroverlay" style="width: 100%; height: 100%; position: absolute; background-color: rgb(164, 230, 247);"></div></div><div data-effect="BackgroundParallax" data-fitting="fill" data-align="center" class="bgMedia" id="comp-j0czuaqabalatamedia" style="position: fixed; pointer-events: none; top: 0px; transform-style: preserve-3d; width: 980px; left: 0px; height: 1175px;"><div data-type="image" data-style="" class="bgImage" id="comp-j0czuaqabalatamediacontent" style="transform: translate3d(0px, 20px, 0px); position: relative; width: 980px; height: 1175px;"><div class="bgImagepreloader" id="comp-j0czuaqabalatamediacontentpreloader"></div><img id="comp-j0czuaqabalatamediacontentimage" alt="" data-type="image" src="https://static.wixstatic.com/media/da546a6fb9e6437daba965389fcf45cf.jpg/v1/fill/w_1960,h_2350,al_c,q_90,usm_0.66_1.00_0.01/da546a6fb9e6437daba965389fcf45cf.webp" style="width: 980px; height: 1175px; object-fit: cover;"></div></div></div><div id="comp-j0czuaqainlineContent" class="strc1inlineContent" style="position: absolute; width: 980px; top: 0px; bottom: 0px; left: calc((100% - 980px) * 0.5);"><div class="txtNew" id="comp-j0d11x4y" style="left: 636px; width: 471px; position: absolute; top: 86px;"><p class="font_7" style="font-size:25px; text-align:center;"><span style="font-size:25px;"><span style="color:#3588CC;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;">I'M XUE(CHRISTIN), A CALIFORNIA BASED UX/INTERACTION DESIGNER WITH A LOVE FOR TRAVELING AND EXPLORING THE NEW WORLD.</span></span></span></p>
-</div></div></div></div></section><section class="strc1" id="comp-j0d0oaqh" style="width: 980px; position: absolute; top: 306px; height: 650px; left: 0px;"><div data-enable-video="true" class="strc1balata" id="comp-j0d0oaqhbalata" style="position: absolute; top: 0px; width: calc(980px); height: 100%; pointer-events: auto; bottom: 0px; left: calc(0px); right: calc(980px); overflow: hidden; clip: rect(0px 980px 650px 0px);"><div class="bgColor" id="comp-j0d0oaqhbalatabgcolor" style="position: absolute; width: 100%; height: 100%;"><div id="comp-j0d0oaqhbalatabgcoloroverlay" class="bgColoroverlay" style="width: 100%; height: 100%; position: absolute; background-color: transparent;"></div></div></div><div id="comp-j0d0oaqhinlineContent" class="strc1inlineContent"><div class="strc1" id="comp-j0d0oaxm" style="position: absolute; left: calc(0px); width: 980px; top: 0px; height: 650px;"><div data-enable-video="true" class="strc1balata" id="comp-j0d0oaxmbalata" style="position: absolute; top: 0px; width: calc(980px); height: 100%; pointer-events: auto; left: calc(0px); bottom: 0px; overflow: hidden; clip: rect(0px 980px 650px 0px);"><div class="bgColor" id="comp-j0d0oaxmbalatabgcolor" style="position: absolute; width: 100%; height: 100%;"><div id="comp-j0d0oaxmbalatabgcoloroverlay" class="bgColoroverlay" style="width: 100%; height: 100%; position: absolute; background-color: rgb(242, 235, 172);"></div></div></div><div id="comp-j0d0oaxminlineContent" class="strc1inlineContent" style="position: absolute; width: 980px; top: 0px; bottom: 0px; left: calc((100% - 980px) * 0.5);"><div class="s_BIwzIGroupSkin" id="comp-j0d1fepi" style="position: absolute; width: 786px; height: 379px; top: 161px; left: 292px;"><div id="comp-j0d1fepiinlineContent" class="s_BIwzIGroupSkininlineContent"><div class="txtNew" id="comp-ixjpzhx7" style="width: 786px; position: absolute; left: 0px; top: 83px;"><p class="font_8" style="font-size:15px; text-align:center;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span style="font-size:15px;"><span style="color:#7E0C6E;">Born and raised in Chengdu, China, I graduated from the University of Texas at Dallas in Master of Science (UTD).&nbsp;Currently, I am working as a freelancer on a four-members team in California.</span></span></span></p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;">&nbsp;</p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span style="font-size:15px;"><span style="color:#7E0C6E;">Passion is a significant part in my life.&nbsp; After graduated from UTD in Electrical Engineering, I traveled in U.S., and moved from Texas to California.&nbsp;&nbsp;&nbsp;&nbsp; Instead of working in an industry which I am not passionate about, I decided to follow my heart and do the work what I really love.&nbsp;</span></span></span></p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;">&nbsp;</p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span style="font-size:15px;"><span style="color:#7E0C6E;">Working as an UX Designer, I am passionate in translating people’s needs with empathy into helpful and meaningful design. With engineering background, I experienced working with engineers and&nbsp;speak their “LANGUAGE”.&nbsp;</span></span></span></p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;">&nbsp;</p>
-
-    <p class="font_8" style="font-size:15px; text-align:center;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><span style="font-size:15px;"><span style="color:#7E0C6E;">Aside from design, I love traveling, cooking and exploring new design and technology.&nbsp; I always fascinate in the beauty of nature and people from all over the world.&nbsp; Coming from Chengdu, China --- “the food paradise”, I can usually be found cooking and baking.&nbsp;</span></span></span></p>
-</div><div class="txtNew" id="comp-j0d1bw70" style="width: 304px; position: absolute; left: 241px; top: 0px;"><h2 class="font_2" style="font-size:25px; text-align:center;"><span style="font-size:25px;"><span style="color:#7E0C6E;"><span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;">About Me</span></span></span></h2>
-</div></div></div><div data-exact-height="300" data-content-padding-horizontal="0" data-content-padding-vertical="0" title="" class="style-ixjpzhxg" id="comp-j0d1hng0" style="left: -86px; position: absolute; top: 175px; width: 300px; height: 300px;"><div id="comp-j0d1hng0link" class="style-ixjpzhxglink" style="width: 300px; height: 300px;"><div data-style="" class="style-ixjpzhxgimg" id="comp-j0d1hng0img" style="position: relative; width: 300px; height: 300px;"><div class="style-ixjpzhxgimgpreloader" id="comp-j0d1hng0imgpreloader"></div><img id="comp-j0d1hng0imgimage" alt="" data-type="image" src="https://static.wixstatic.com/media/7d68b9_a6d688bcb929441b97fe4ee02584d109~mv2.jpg/v1/fill/w_600,h_600,al_c,q_80,usm_0.66_1.00_0.01/7d68b9_a6d688bcb929441b97fe4ee02584d109~mv2.webp" style="width: 300px; height: 300px; object-fit: cover;"></div></div></div></div></div></div></section><div class="Anchor_1" id="comp-j0d1smah" style="left: -469px; width: 1918px; position: absolute; top: 306px; height: 21px;"></div></div></div><div class="p2" id="ubbkv" style="left: 0px; width: 980px; position: absolute; top: 0px; height: 500px; display: none;"><div id="ubbkvbg" class="p2bg"></div><div id="ubbkvinlineContent" class="p2inlineContent"></div></div><div class="p2" id="cbeq" style="left: 0px; width: 980px; position: absolute; top: 0px; height: 6428px; display: none;"><div id="cbeqbg" class="p2bg"></div><div id="cbeqinlineContent" class="p2inlineContent"></div></div><div class="p2" id="c1n22" style="left: 0px; width: 980px; position: absolute; top: 0px; height: 4332px; display: none; visibility: hidden;"><div id="c1n22bg" class="p2bg"></div><div id="c1n22inlineContent" class="p2inlineContent"></div></div></div></div></div></div><nav id="comp-iyddfm99" data-menuborder-y="0" data-menubtn-border="0" data-ribbon-els="0" data-label-pad="0" data-ribbon-extra="0" data-drophposition="" data-dropalign="center" dir="ltr" class="style-j0d0hgsb" data-state="center notMobile" style="top: 20px; right: 20px; width: 843px; position: fixed; z-index: 50; height: 32px;" data-dropmode="dropDown"><ul aria-label="Site navigation" role="navigation" id="comp-iyddfm99itemsContainer" class="style-j0d0hgsbitemsContainer" style="text-align: center;"><li data-direction="ltr" data-listposition="left" data-data-id="bmi1j94" class="style-j0d0hgsbrepeaterButton" data-state="menu selected idle link notMobile" id="comp-iyddfm990" data-original-gap-between-text-and-btn="1" aria-hidden="false" style="width: 281px; height: 32px; position: relative; box-sizing: border-box; overflow: visible;"><a role="button" tabindex="0" aria-haspopup="false" data-listposition="left" href="https://www.yangxue.me" target="_self" id="comp-iyddfm990linkElement" class="style-j0d0hgsbrepeaterButtonlinkElement"><div class="style-j0d0hgsbrepeaterButton_gapper"><div id="comp-iyddfm990bg" class="style-j0d0hgsbrepeaterButtonbg" style="text-align: center;"><p id="comp-iyddfm990label" class="style-j0d0hgsbrepeaterButtonlabel" style="text-align: center; line-height: 32px;">Home</p></div></div></a></li><li data-direction="ltr" data-listposition="center" data-data-id="dataItem-iylzsc28" class="style-j0d0hgsbrepeaterButton" data-state="menu  idle link notMobile" id="comp-iyddfm991" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 281px; height: 32px; position: relative; box-sizing: border-box; overflow: visible;"><a role="button" tabindex="0" aria-haspopup="true" data-listposition="center" href="https://www.yangxue.me/projects" target="_self" id="comp-iyddfm991linkElement" class="style-j0d0hgsbrepeaterButtonlinkElement"><div class="style-j0d0hgsbrepeaterButton_gapper"><div id="comp-iyddfm991bg" class="style-j0d0hgsbrepeaterButtonbg" style="text-align: center;"><p id="comp-iyddfm991label" class="style-j0d0hgsbrepeaterButtonlabel" style="text-align: center; line-height: 32px;">Works</p></div></div></a></li><li data-direction="ltr" data-listposition="right" data-data-id="dataItem-iydevaxi" class="style-j0d0hgsbrepeaterButton" data-state="menu  idle link notMobile" id="comp-iyddfm992" data-original-gap-between-text-and-btn="0" aria-hidden="false" style="width: 281px; height: 32px; position: relative; box-sizing: border-box; overflow: visible;"><a role="button" tabindex="0" aria-haspopup="false" data-listposition="right" href="https://www.yangxue.me" target="_self" data-keep-roots="true" data-anchor="dataItem-j0d1smc1" id="comp-iyddfm992linkElement" class="style-j0d0hgsbrepeaterButtonlinkElement"><div class="style-j0d0hgsbrepeaterButton_gapper"><div id="comp-iyddfm992bg" class="style-j0d0hgsbrepeaterButtonbg" style="text-align: center;"><p id="comp-iyddfm992label" class="style-j0d0hgsbrepeaterButtonlabel" style="text-align: center; line-height: 32px;">About Me</p></div></div></a></li><li data-listposition="right" class="style-j0d0hgsbrepeaterButton" data-state="menu  idle header notMobile" id="comp-iyddfm99__more__" data-original-gap-between-text-and-btn="1" aria-hidden="true" style="height: 0px; overflow: hidden; position: absolute;"><a role="button" tabindex="-1" aria-haspopup="true" data-listposition="right" id="comp-iyddfm99__more__linkElement" class="style-j0d0hgsbrepeaterButtonlinkElement"><div class="style-j0d0hgsbrepeaterButton_gapper"><div id="comp-iyddfm99__more__bg" class="style-j0d0hgsbrepeaterButtonbg" style="text-align: center;"><p id="comp-iyddfm99__more__label" class="style-j0d0hgsbrepeaterButtonlabel" style="text-align: center;">More</p></div></div></a></li></ul><div id="comp-iyddfm99moreButton" class="style-j0d0hgsbmoreButton"></div><nav data-drophposition="" data-dropalign="center" id="comp-iyddfm99dropWrapper" class="style-j0d0hgsbdropWrapper" style="visibility: hidden; left: 0px; right: auto; bottom: auto;"><ul id="comp-iyddfm99moreContainer" class="style-j0d0hgsbmoreContainer" style="visibility: hidden; left: 0px; right: auto;"></ul></nav></nav><div id="comp-iydk6fms" data-align="center" data-disabled="false" data-margin="0" data-should-use-flex="true" class="style-j0d0gzys" data-state="desktop shouldUseFlex center" style="top: 20px; left: 20px; position: fixed; z-index: 50; height: 40px; min-height: 37px; width: 148px;" data-prev-text="XUE YANG" data-prev-min-width="148" data-prev-width="148"><a href="https://www.yangxue.me" target="_self" role="button" id="comp-iydk6fmslink" class="style-j0d0gzyslink"><span id="comp-iydk6fmslabel" class="style-j0d0gzyslabel" style="">XUE YANG</span></a></div></div></div><!-- react-empty: 199 --><!-- react-empty: 200 --><div class="siteAspectsContainer"><div></div><div></div><!-- react-empty: 204 --></div><!-- react-empty: 205 --><!-- react-empty: 206 --><!-- react-empty: 207 --></div></div>
-
-
-
-
-<!-- No Footer -->
-
-
-
-
-
-
-
-</body></html>
+</body>
+</html>
