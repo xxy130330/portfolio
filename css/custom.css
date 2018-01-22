@@ -95,7 +95,7 @@
 	color:#16A085;
 }
 
-.archive span{
+.archive pan{
 	background-color:#ED5A64;
 	padding:2px 6px;
 	border-radius:25px;
@@ -661,11 +661,11 @@ header {
 /*------------------------------
 	SERVICES
 ------------------------------*/
-.service > h3 {
+.service > h5 {
 	transition-duration:0.5s;
 }
 
-.service:hover > h3 {
+.service:hover > h5 {
 	color:#34495E;
 }
 
@@ -1789,5 +1789,29 @@ blockquote footer {
 	#blog-header i {
 		font-size:28px;
 	}
+}
+
+/*------------------------------
+	filter button
+------------------------------*/
+.filterBtn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #ddd;
+	cursor: pointer;
+	color: #2F4254;
+}
+
+/* Add a light grey background on mouse-over */
+.filterBtn:hover {
+	background-color: #2F4254;
+	color: white;
+}
+
+/* Add a dark background to the active button */
+.filterBtn.active {
+	background-color: #2F4254;
+	color: white;
 }
 
