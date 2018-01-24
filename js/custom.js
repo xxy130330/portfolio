@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 // **************************** Project section filter menu *****************
 
-filterSelection("all")
+filterSelection("all");
 function filterSelection(c) {
     var x, i;
     x = document.getElementsByClassName("filterDiv");
@@ -123,20 +123,15 @@ function removeClass(element, name) {
 }
 
 // Add active class to the current control button (highlight it)
-var btnContainer = document.getElementById("btnContainer");
-var btns = btnContainer.getElementsByClassName("filterBtn");
 
-	for (var i = 0; i < btns.length; i++) {
-		btns[i].addEventListener("click", function () {
-			// var current = document.getElementsByClassName("active");
-			var current = document.getElementsByClassName('filterBtn active');
-			var indexOfBtn = current.indexOf(element);
-			current[indexOfBtn].className = current[indexOfBtn].className.replace(" active", "");
-			this.className += " active";
-		});
-	}
-
-
-
+// var btnContainer = document.getElementById("btnContainer");
+// var btns = btnContainer.getElementsByClassName("filterBtn");
+// for (var i = 0; i < btns.length; i++) {
+//     btns[i].addEventListener("click", function() {
+//         var current = document.getElementsByClassName("active");
+//         current[0].className = current[0].className.replace(" active", "");
+//         this.className = "filterBtn active";
+//     });
+// }
 
 
