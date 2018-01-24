@@ -1810,7 +1810,7 @@ blockquote footer {
 }
 
 /* Add a dark background to the active button */
-.filterBtn.active {
+.filterBtn.activeBtn {
 	background-color: #2F4254;
 	color: white;
 }
