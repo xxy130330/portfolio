@@ -225,6 +225,11 @@
 h3#interviewTitle{
 	color: rgb(53,73,93);
 }
+
+.portfolio-text > div > ul{
+	font-size: 16px;
+	text-align: left;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
