@@ -230,6 +230,18 @@ h3#interviewTitle{
 	font-size: 16px;
 	text-align: left;
 }
+
+.portfolio-text > div> img{
+	width: 20vw;
+}
+
+#site_map >img:nth-child(1) {
+	width: 50%;
+}
+
+#site_map >img:nth-child(2) {
+	width: 100%;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
