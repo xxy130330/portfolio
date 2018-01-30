@@ -200,10 +200,27 @@
 
 .portfolio-text  {
 	margin-top:25px;
-	text-align:justify;
+	text-align:center;
 	clear:both;
 }
 
+.row.content-light{
+	padding-top:0;
+}
+
+.row.content-light > .headerImg > img{
+	width: 100%;
+}
+
+.researchImg{
+	display: flex;
+	justify-content: space-around;
+}
+
+.researchImg > img{
+	width:20%;
+	height: 20%;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
@@ -264,6 +281,15 @@ h4 {
 	background-color:#1ABC9C;
 	padding:80px 0;
 	color:#FFFFFF;
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+.content-light {
+	background-color:rgb(245,244,245);
+	padding:80px 0;
+	color:rgb(53,73,93);
 	border-top:8px solid rgba(0,0,0,0.1);
 	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
 	text-align:center;
@@ -871,6 +897,7 @@ blockquote footer {
 }
 
 .cs-style-4 figure > div {
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -1836,6 +1863,10 @@ blockquote footer {
 /* The "show" class is added to the filtered elements */
 .show {
 	display: inline-block;
+}
+
+#projectContainer{
+	margin-top: 10%;
 }
 
 
