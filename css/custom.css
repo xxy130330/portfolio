@@ -234,8 +234,12 @@ h3#interviewTitle{
 	text-align: left;
 }
 
-.portfolio-text > div> img{
-	width: 50vw;
+
+
+@media (max-width: 790px) {
+	.portfolio-text > div> img{
+		width: 50%;
+	}
 }
 
 #site_map >img:nth-child(1) {
@@ -263,7 +267,9 @@ h3#interviewTitle{
 	margin-bottom: 5%;
 }
 
-
+#hifi{
+	width: 100%;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
