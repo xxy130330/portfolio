@@ -55,6 +55,18 @@
 	font-size:20px;
 }
 
+#blog-header a#left{
+	float: left;
+}
+
+#blog-header a#middle{
+	font-size: 30px;
+}
+
+.container .row{
+	text-align: center;
+}
+
 #blog-header a:hover{
 	color:#1ABC9C; 
 }
