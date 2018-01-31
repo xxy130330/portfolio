@@ -270,6 +270,11 @@ h3#interviewTitle{
 #hifi{
 	width: 100%;
 }
+
+#last_content{
+	padding-bottom: 0px;
+}
+
 /*------------------------------
 	MAIN
 ------------------------------*/
