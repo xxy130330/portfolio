@@ -250,6 +250,11 @@ h3#interviewTitle{
 .row.content-light > #wireframe{
 	width: 80%;
 }
+
+.row.content-second > #user_testing{
+	width: 50%;
+}
+
 /*------------------------------
 	MAIN
 ------------------------------*/
