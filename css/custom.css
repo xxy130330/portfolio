@@ -1966,7 +1966,8 @@ blockquote footer {
 	width: 100%;
 }
 
-#stepByStep{
+#stepByStep,
+#end{
 	color: rgb(53,73,93);
 }
 
