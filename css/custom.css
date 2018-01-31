@@ -200,6 +200,9 @@
 
 .portfolio-text  {
 	margin-top:25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
 	text-align:center;
 	clear:both;
 }
@@ -230,6 +233,37 @@ h3#interviewTitle{
 	font-size: 16px;
 	text-align: left;
 }
+
+.portfolio-text > div> img{
+	width: 50vw;
+}
+
+#site_map >img:nth-child(1) {
+	width: 50%;
+}
+
+#site_map >img:nth-child(2) {
+	width: 100%;
+}
+
+.row.content-light h3{
+	color: rgb(53,73,93);
+}
+
+.row.content-light > #wireframe{
+	width: 80%;
+}
+
+.row.content-second > #user_testing{
+	width: 50%;
+}
+
+#user_testing_result{
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+
 /*------------------------------
 	MAIN
 ------------------------------*/
