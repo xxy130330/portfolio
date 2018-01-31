@@ -200,6 +200,9 @@
 
 .portfolio-text  {
 	margin-top:25px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
 	text-align:center;
 	clear:both;
 }
@@ -232,7 +235,7 @@ h3#interviewTitle{
 }
 
 .portfolio-text > div> img{
-	width: 20vw;
+	width: 50vw;
 }
 
 #site_map >img:nth-child(1) {
@@ -254,6 +257,12 @@ h3#interviewTitle{
 .row.content-second > #user_testing{
 	width: 50%;
 }
+
+#user_testing_result{
+	width: 70%;
+	margin-bottom: 5%;
+}
+
 
 /*------------------------------
 	MAIN
