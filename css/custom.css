@@ -1792,6 +1792,10 @@ blockquote footer {
 	.event .event-info .date {
 		margin-left:185px;
 	}
+
+	.photoSection > img{
+		width: 90%;
+	}
 }
 
 /*------------------------------
@@ -1971,7 +1975,8 @@ blockquote footer {
 }
 
 .row.content-yellow > img,
-.stepTwoContainer > img{
+.stepTwoContainer > img,
+.stepThreeContainer > img{
 	margin-bottom: 5%;
 }
 
@@ -1979,6 +1984,13 @@ blockquote footer {
 	text-align: left;
 }
 
+#conversation{
+	width: 80%;
+}
 
-
+.photoSection > img{
+	width: 35%;
+	display: inline-block;
+	box-shadow: 0 0 10px 0 #6a6969;
+}
 
