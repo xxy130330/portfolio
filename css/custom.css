@@ -234,11 +234,13 @@ h3#interviewTitle{
 @media (max-width: 790px) {
 	.portfolio-text > div> img,
 	#veerPartOne,
-	#veerPartTwo {
+	#veerPartTwo,
+	.stepThreeContainer > img{
 		width: 50%;
 	}
 
-	.row.content-yellow > ul{
+	.row.content-yellow > ul,
+	.stepThreeContainer > ul{
 		padding-left: 10%;
 	}
 
@@ -1971,6 +1973,10 @@ blockquote footer {
 .row.content-yellow > img,
 .stepTwoContainer > img{
 	margin-bottom: 5%;
+}
+
+.stepThreeContainer > ul > li{
+	text-align: left;
 }
 
 
