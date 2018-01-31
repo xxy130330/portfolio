@@ -232,9 +232,17 @@ h3#interviewTitle{
 
 
 @media (max-width: 790px) {
-	.portfolio-text > div> img{
+	.portfolio-text > div> img,
+	#veerPartOne,
+	#veerPartTwo {
 		width: 50%;
 	}
+
+	.row.content-yellow > ul{
+		padding-left: 10%;
+	}
+
+
 }
 
 #site_map >img:nth-child(1) {
@@ -341,6 +349,25 @@ h4 {
 
 .content-light {
 	background-color:rgb(245,244,245);
+	padding:80px 0;
+	color:rgb(53,73,93);
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+
+.content-purple {
+	background-color:rgb(210,180,238);
+	padding:80px 0;
+	color:rgb(53,73,93);
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+.content-yellow {
+	background-color:rgb(255,236,160);
 	padding:80px 0;
 	color:rgb(53,73,93);
 	border-top:8px solid rgba(0,0,0,0.1);
@@ -1922,6 +1949,29 @@ blockquote footer {
 	margin-top: 10%;
 }
 
+
+/****************** veer *************/
+
+.veerHeader{
+	padding-top: 0px;
+}
+
+#veerHeaderImg > img{
+	width: 100%;
+}
+
+#stepByStep{
+	color: rgb(53,73,93);
+}
+
+.row.content-yellow > ul > li{
+	text-align: left;
+}
+
+.row.content-yellow > img,
+.stepTwoContainer > img{
+	margin-bottom: 5%;
+}
 
 
 
