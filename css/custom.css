@@ -242,6 +242,14 @@ h3#interviewTitle{
 #site_map >img:nth-child(2) {
 	width: 100%;
 }
+
+.row.content-light h3{
+	color: rgb(53,73,93);
+}
+
+.row.content-light > #wireframe{
+	width: 80%;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
