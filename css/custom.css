@@ -1969,7 +1969,47 @@ blockquote footer {
 	margin-top: 10%;
 }
 
+.filterDiv.ux{
+	border:2px solid red;
+	height:200px;
+}
 
+.filterDiv .rightPart,
+.filterDiv .leftPart{
+	width:50%;
+	height:100%;
+	display: inline-block;
+}
+
+.filterDiv .leftPart{
+	background-color: rgb(53,73,93);
+	float: left;
+}
+
+.filterDiv .rightPart{
+	background-color: red;
+}
+
+.rightPart > img{
+	width: 100%;
+	float: right;
+}
+
+.leftPart > a{
+	position: absolute;
+	bottom: 15px;
+	background-color: #ED5A64;
+	color: white;
+	text-align: center;
+	padding:5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.leftPart > a, .leftPart > a:focus, a:hover{
+	outline: 0 none;
+	text-decoration: none;
+}
 /****************** veer *************/
 
 .veerHeader{
@@ -2008,4 +2048,6 @@ blockquote footer {
 	display: inline-block;
 	box-shadow: 0 0 10px 0 #6a6969;
 }
+
+
 
