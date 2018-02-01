@@ -389,9 +389,7 @@ h4 {
 	text-align:center;
 }
 
-.scrollpoint {
-	opacity:0;
-}
+
 
 .scrollpoint.active {
 	opacity:1;
