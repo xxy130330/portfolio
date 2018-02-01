@@ -55,7 +55,7 @@
 	font-size:20px;
 }
 
-#blog-header a#left{
+#blog-header a.left{
 	float: left;
 }
 
@@ -130,6 +130,8 @@
 .blog-about-xs h3 {
 	color:#16A085;
 }
+
+
 
 /*------------------------------
 	COMMENTS
@@ -256,7 +258,15 @@ h3#interviewTitle{
 		padding-left: 10%;
 	}
 
+	#blog-header .name{
+		display: none
+	}
 
+	.leftPart > a.gitLink,
+	.leftPart > a.liveSite{
+		position: relative;
+		margin-top: 20%;
+	}
 }
 
 #site_map >img:nth-child(1) {
@@ -2023,12 +2033,21 @@ blockquote footer {
 	padding:0 5%;
 }
 
-.leftPart > a.gitLink,
-.leftPart > a.liveSite{
-	position: relative;
-	margin-top: 50%;
+@media (min-width: 790px) {
+	.leftPart > a.gitLink,
+	.leftPart > a.liveSite {
+		position: relative;
+		margin-top: 20%;
+	}
 }
 
+@media (min-width: 1025px) {
+	.leftPart > a.gitLink,
+	.leftPart > a.liveSite {
+		position: relative;
+		margin-top: 50%;
+	}
+}
 
 
 /****************** veer *************/
