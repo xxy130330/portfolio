@@ -1969,9 +1969,12 @@ blockquote footer {
 	margin-top: 10%;
 }
 
-.filterDiv.ux{
-	border:2px solid red;
-	height:200px;
+.filterDiv.ux,
+.filterDiv.code,
+.filterDiv.graphic{
+	/*border:2px solid red;*/
+	height:250px;
+	margin-bottom: 5%;
 }
 
 .filterDiv .rightPart,
@@ -1992,6 +1995,7 @@ blockquote footer {
 
 .rightPart > img{
 	width: 100%;
+	height:100%;
 	float: right;
 }
 
@@ -2006,10 +2010,27 @@ blockquote footer {
 	display: inline-block;
 }
 
-.leftPart > a, .leftPart > a:focus, a:hover{
-	outline: 0 none;
-	text-decoration: none;
+.leftPart > a:hover{
+	background-color: white;
+	color: #ed5a64;
 }
+
+.leftPart >h5{
+	color: #ED5A64;
+}
+
+.leftPart > h3{
+	padding:0 5%;
+}
+
+.leftPart > a.gitLink,
+.leftPart > a.liveSite{
+	position: relative;
+	margin-top: 50%;
+}
+
+
+
 /****************** veer *************/
 
 .veerHeader{
