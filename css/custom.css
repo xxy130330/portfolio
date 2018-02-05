@@ -262,11 +262,11 @@ h3#interviewTitle{
 		display: none
 	}
 
-	.leftPart > a.gitLink,
-	.leftPart > a.liveSite{
-		position: relative;
-		margin-top: 20%;
-	}
+	/*.leftPart > a.gitLink,*/
+	/*.leftPart > a.liveSite{*/
+		/*position: relative;*/
+		/*margin-top: 20%;*/
+	/*}*/
 }
 
 #site_map >img:nth-child(1) {
@@ -1989,7 +1989,7 @@ blockquote footer {
 
 .filterDiv .rightPart,
 .filterDiv .leftPart{
-	width:50%;
+	width:100%;
 	height:100%;
 	display: inline-block;
 }
@@ -2010,8 +2010,8 @@ blockquote footer {
 }
 
 .leftPart > a{
-	position: absolute;
-	bottom: 15px;
+	/*position: absolute;*/
+	/*bottom: 15px;*/
 	background-color: #ED5A64;
 	color: white;
 	text-align: center;
@@ -2037,19 +2037,32 @@ blockquote footer {
 	.leftPart > a.gitLink,
 	.leftPart > a.liveSite {
 		position: relative;
+		margin-top: 15%;
+	}
+	.leftPart > a.liveSite_bloodSugarDiary{
+		position: relative;
 		margin-top: 20%;
 	}
+
+
 }
 
-@media (min-width: 1025px) {
+/*@media (min-width: 1025px) {*/
+	/*.leftPart > a.gitLink,*/
+	/*.leftPart > a.liveSite {*/
+		/*position: relative;*/
+		/*margin-top: 50%;*/
+	/*}*/
+/*}*/
+
+@media (min-width: 420px) and (max-width: 770px){
 	.leftPart > a.gitLink,
-	.leftPart > a.liveSite {
+	.leftPart > a.liveSite,
+	.leftPart > a.liveSite_bloodSugarDiary{
 		position: relative;
-		margin-top: 50%;
+		margin-top: 10%;
 	}
 }
-
-
 /****************** veer *************/
 
 .veerHeader{
