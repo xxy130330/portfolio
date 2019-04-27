@@ -1,9 +1,4 @@
-/*------------------------------
- * Copyright 2014 Pixelized
- * http://www.pixelized.cz
- *
- * Freelancer theme v1.1
-------------------------------*/
+
 /*------------------------------
 	BLOG
 ------------------------------*/
@@ -58,6 +53,18 @@
 #blog-header a{
 	color:#16A085;
 	font-size:20px;
+}
+
+#blog-header a.left{
+	float: left;
+}
+
+#blog-header a#middle{
+	font-size: 30px;
+}
+
+.container .row{
+	text-align: center;
 }
 
 #blog-header a:hover{
@@ -123,6 +130,8 @@
 .blog-about-xs h3 {
 	color:#16A085;
 }
+
+
 
 /*------------------------------
 	COMMENTS
@@ -200,10 +209,103 @@
 
 .portfolio-text  {
 	margin-top:25px;
-	text-align:justify;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	text-align:center;
 	clear:both;
 }
 
+.row.content-light{
+	padding-top:0;
+}
+
+.row.content-light > .headerImg > img{
+	width: 100%;
+}
+
+.researchImg{
+	display: flex;
+	justify-content: space-around;
+}
+
+.researchImg > img{
+	width:20%;
+	height: 20%;
+}
+
+h3#interviewTitle{
+	color: rgb(53,73,93);
+}
+
+.portfolio-text > div > ul{
+	font-size: 16px;
+	text-align: left;
+}
+
+
+
+@media (max-width: 790px) {
+	.portfolio-text > div> img,
+	#veerPartOne,
+	#veerPartTwo,
+	.stepThreeContainer > img{
+		width: 50%;
+	}
+
+	.row.content-yellow > ul,
+	.stepThreeContainer > ul{
+		padding-left: 10%;
+	}
+
+	#blog-header .name{
+		display: none
+	}
+
+	/*.leftPart > a.gitLink,*/
+	/*.leftPart > a.liveSite{*/
+		/*position: relative;*/
+		/*margin-top: 20%;*/
+	/*}*/
+}
+
+#site_map >img:nth-child(1) {
+	width: 50%;
+}
+
+#site_map >img:nth-child(2) {
+	width: 100%;
+}
+
+.row.content-light h3{
+	color: rgb(53,73,93);
+}
+
+.row.content-light > #wireframe{
+	width: 80%;
+}
+
+.row.content-second > #user_testing{
+	width: 50%;
+}
+
+#user_testing_result{
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+#hifi{
+	width: 100%;
+}
+
+#last_content{
+	padding-bottom: 0px;
+}
+
+
+.addPadding{
+	padding-top: 80px;
+}
 /*------------------------------
 	MAIN
 ------------------------------*/
@@ -269,9 +371,35 @@ h4 {
 	text-align:center;
 }
 
-.scrollpoint {
-	opacity:0;
+.content-light {
+	background-color:rgb(245,244,245);
+	padding:80px 0;
+	color:rgb(53,73,93);
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
 }
+
+
+.content-purple {
+	background-color:rgb(210,180,238);
+	padding:80px 0;
+	color:rgb(53,73,93);
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+.content-yellow {
+	background-color:rgb(255,236,160);
+	padding:80px 0;
+	color:rgb(53,73,93);
+	border-top:8px solid rgba(0,0,0,0.1);
+	box-shadow:0px 1px 0px rgba(255,255,255,0.2);
+	text-align:center;
+}
+
+
 
 .scrollpoint.active {
 	opacity:1;
@@ -580,6 +708,10 @@ header {
 	color:#1ABC9C;
 }
 
+
+.date.year{
+	text-align: left;
+}
 /* SKILLS */
 
 #skills {
@@ -871,6 +1003,7 @@ blockquote footer {
 }
 
 .cs-style-4 figure > div {
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -928,6 +1061,8 @@ blockquote footer {
 	color:#ED5A64;
 	background-color:#ffffff;
 }
+
+
 
 /*------------------------------
 	BLOG
@@ -1681,6 +1816,10 @@ blockquote footer {
 	.event .event-info .date {
 		margin-left:185px;
 	}
+
+	.photoSection > img{
+		width: 90%;
+	}
 }
 
 /*------------------------------
@@ -1810,8 +1949,158 @@ blockquote footer {
 }
 
 /* Add a dark background to the active button */
-.filterBtn.active {
+.filterBtn.activeBtn {
 	background-color: #2F4254;
 	color: white;
 }
+
+
+/*.container{*/
+	/*overflow: hidden;*/
+/*}*/
+
+.filterDiv {
+	/*float: right;*/
+	/*background-color: #2196F3;*/
+	/*color: #ffffff;*/
+	/*width: 100px;*/
+	/*line-height: 100px;*/
+	/*text-align: center;*/
+	/*margin: 2px;*/
+	display: none; /* Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+	display: inline-block;
+}
+
+#projectContainer{
+	margin-top: 10%;
+}
+
+.filterDiv.ux,
+.filterDiv.code,
+.filterDiv.graphic{
+	/*border:2px solid red;*/
+	height:250px;
+	margin-bottom: 5%;
+}
+
+.filterDiv .rightPart,
+.filterDiv .leftPart{
+	width:100%;
+	height:100%;
+	display: inline-block;
+}
+
+.filterDiv .leftPart{
+	background-color: rgb(53,73,93);
+	float: left;
+}
+
+.filterDiv .rightPart{
+	background-color: red;
+}
+
+.rightPart > img{
+	width: 100%;
+	height:100%;
+	float: right;
+}
+
+.leftPart > a{
+	/*position: absolute;*/
+	/*bottom: 15px;*/
+	background-color: #ED5A64;
+	color: white;
+	text-align: center;
+	padding:5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+}
+
+.leftPart > a:hover{
+	background-color: white;
+	color: #ed5a64;
+}
+
+.leftPart >h5{
+	color: #ED5A64;
+}
+
+.leftPart > h3{
+	padding:0 5%;
+}
+
+@media (min-width: 790px) {
+	.leftPart > a.gitLink,
+	.leftPart > a.liveSite {
+		position: relative;
+		margin-top: 15%;
+	}
+	.leftPart > a.liveSite_bloodSugarDiary{
+		position: relative;
+		margin-top: 20%;
+	}
+
+
+}
+
+/*@media (min-width: 1025px) {*/
+	/*.leftPart > a.gitLink,*/
+	/*.leftPart > a.liveSite {*/
+		/*position: relative;*/
+		/*margin-top: 50%;*/
+	/*}*/
+/*}*/
+
+@media (min-width: 420px) and (max-width: 770px){
+	.leftPart > a.gitLink,
+	.leftPart > a.liveSite,
+	.leftPart > a.liveSite_bloodSugarDiary{
+		position: relative;
+		margin-top: 10%;
+	}
+}
+/****************** veer *************/
+
+.veerHeader{
+	padding-top: 0px;
+}
+
+#veerHeaderImg > img{
+	width: 100%;
+}
+
+#stepByStep,
+#end{
+	color: rgb(53,73,93);
+}
+
+.row.content-yellow > ul > li{
+	text-align: left;
+}
+
+.row.content-yellow > img,
+.stepTwoContainer > img,
+.stepThreeContainer > img{
+	margin-bottom: 5%;
+}
+
+.stepThreeContainer > ul > li{
+	text-align: left;
+}
+
+#conversation{
+	width: 80%;
+}
+
+.photoSection > img{
+	width: 35%;
+	display: inline-block;
+	box-shadow: 0 0 10px 0 #6a6969;
+}
+
+
 
